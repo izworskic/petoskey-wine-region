@@ -1,0 +1,26 @@
+{
+ "Petoskey": {
+  "lat": 45.3733,
+  "lng": -84.9553
+ },
+ "Walloon Lake": {
+  "lat": 45.2661,
+  "lng": -84.9337
+ },
+ "Harbor Springs": {
+  "lat": 45.4317,
+  "lng": -84.992
+ },
+ "Boyne City": {
+  "lat": 45.2172,
+  "lng": -85.0176
+ },
+ "Charlevoix": {
+  "lat": 45.3081,
+  "lng": -85.2587
+ },
+ "Alanson": {
+  "lat": 45.4442,
+  "lng": -84.7867
+ }
+}

@@ -1,0 +1,1042 @@
+[
+ {
+  "id": "walloon-lake-winery",
+  "name": "Walloon Lake Winery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.340631,
+  "lng": -85.004679,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "cold-hardy",
+   "marquette",
+   "estate-grown",
+   "light-bites",
+   "live-music"
+  ],
+  "dwellMinutes": 45,
+  "note": "A third-generation family farm a mile off Walloon Lake, with seven acres of cold-hardy vines on 36 acres. The stacked-cordwood tasting building looks out over the vineyard and the rolling country behind it.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "3149 Intertown Road, Petoskey, MI 49770",
+  "website": "https://www.walloonlakewinery.com/",
+  "phone": "(231) 622-8645",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.340631%2C-85.004679&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.340631%2C-85.004679",
+  "view": "vineyard",
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "quiet farm",
+  "specialties": [
+   "cold-hardy estate wines",
+   "cider",
+   "local cheese boards"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "petoskey-farms",
+  "name": "Petoskey Farms Vineyard & Winery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.362741,
+  "lng": -84.896073,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "cold-hardy",
+   "light-bites",
+   "patio",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 45,
+  "note": "A vineyard tasting room on Atkins Road east of town, set up for sitting outside with heaters on the patio when the air turns. Light bites and table service rather than a bar-rail pour.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "3720 Atkins Road, Petoskey, MI 49770",
+  "website": "https://www.petoskeyfarms.com/",
+  "phone": "(231) 290-9463",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.362741%2C-84.896073&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.362741%2C-84.896073",
+  "view": "vineyard",
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "relaxed patio",
+  "specialties": [
+   "estate wine",
+   "cider"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "maple-moon",
+  "name": "Maple Moon Sugarbush & Winery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.359161,
+  "lng": -84.876723,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "maple",
+   "fruit-wine",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 40,
+  "note": "A working sugarbush that also makes wine, which is about as Northern Michigan as a tasting stop gets. Maple runs through the lineup alongside the fruit wines and cider.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "4454 Atkins Road, Petoskey, MI 49770",
+  "website": "https://www.mmsyrup.com/",
+  "phone": "(231) 487-9058",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.359161%2C-84.876723&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.359161%2C-84.876723",
+  "view": "woods",
+  "food": null,
+  "dogFriendly": null,
+  "vibe": "farm",
+  "specialties": [
+   "maple wine",
+   "fruit wine",
+   "maple syrup"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "mackinaw-trail",
+  "name": "Mackinaw Trail Winery & Brewery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.327831,
+  "lng": -84.96159,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "beer",
+   "cider"
+  ],
+  "tags": [
+   "broad-lineup",
+   "fruit-wine",
+   "bistro",
+   "live-music",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 50,
+  "note": "The largest and most decorated label on the trail, on 30 acres along US-131 south of town, with a small bistro and a long list that runs from dry reds and whites to the fruit wines the Stabile family is known for.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "3423 US-131, Petoskey, MI 49770",
+  "website": "https://www.mackinawtrailwinery.com/",
+  "phone": "(231) 487-1910",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.327831%2C-84.96159&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.327831%2C-84.96159",
+  "view": "vineyard",
+  "food": "bistro",
+  "dogFriendly": null,
+  "vibe": "lively",
+  "specialties": [
+   "fruit wine",
+   "dry reds",
+   "beer"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "boyne-valley-vineyards",
+  "name": "Boyne Valley Vineyards",
+  "area": "boyne-walloon",
+  "town": "Petoskey",
+  "lat": 45.283869,
+  "lng": -84.943295,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "cold-hardy",
+   "marquette",
+   "frontenac",
+   "light-bites",
+   "live-music",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 45,
+  "note": "On US-131 between Walloon Lake and Boyne Falls, the newest name on the trail. The list leans hard into Michigan-grown cold-hardy fruit: Marquette, Frontenac, Frontenac Gris, Cayuga White.",
+  "hours": {
+   "Monday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Tuesday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Wednesday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Thursday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Friday": {
+    "open": "11:00",
+    "close": "19:30"
+   },
+   "Saturday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "17:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "05325 US-131 South, Petoskey, MI 49770",
+  "website": "https://boynevalleyvineyards.com/",
+  "phone": "(231) 373-2090",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.283869%2C-84.943295&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.283869%2C-84.943295",
+  "view": "vineyard",
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "family-friendly",
+  "specialties": [
+   "Marquette",
+   "Frontenac",
+   "Cayuga White"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "resort-pike",
+  "name": "Resort Pike Cidery & Winery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.327385,
+  "lng": -84.997664,
+  "category": "cidery",
+  "beverages": [
+   "cider",
+   "wine"
+  ],
+  "tags": [
+   "hard-cider",
+   "local-fruit",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 40,
+  "note": "Forty acres just south of Petoskey, open since 2017, working with local fruit. Cider is the headline here and the wine list sits alongside it.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "3471 Resort Pike Road, Petoskey, MI 49770",
+  "website": "https://www.resortpike.com/",
+  "phone": "(231) 753-2508",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.327385%2C-84.997664&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.327385%2C-84.997664",
+  "view": "orchard",
+  "food": null,
+  "dogFriendly": null,
+  "vibe": "rustic",
+  "specialties": [
+   "hard cider",
+   "fruit wine"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "rudbeckia",
+  "name": "Rudbeckia Winery & Burnt Marshmallow Brewstillery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.329319,
+  "lng": -85.029302,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "beer",
+   "cider",
+   "spirits"
+  ],
+  "tags": [
+   "all-four",
+   "firepits",
+   "igloos",
+   "light-bites",
+   "bocce",
+   "private-tastings"
+  ],
+  "dwellMinutes": 60,
+  "note": "The one stop on the trail pouring all four: wine, beer, cider and spirits, on a farm with firepits, winter igloos, bocce and corn hole. Reservations are a good idea, especially for the igloos.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "3379 Lake Grove Road, Petoskey, MI 49770",
+  "website": "http://rudbeckiafarm.com/",
+  "phone": "(231) 622-4173",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.329319%2C-85.029302&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.329319%2C-85.029302",
+  "view": "farm",
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "social",
+  "specialties": [
+   "wine",
+   "beer",
+   "cider",
+   "distilled spirits"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "crooked-vine",
+  "name": "Crooked Vine Vineyard & Winery",
+  "area": "harbor-alanson",
+  "town": "Alanson",
+  "lat": 45.429022,
+  "lng": -84.775235,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "light-bites",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 40,
+  "note": "A quiet stop on Lakeview Road in Alanson, at the north end of the region near the Inland Water Route. Wine and cider with light bites.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "8370 Lakeview Road, Alanson, MI 49706",
+  "website": "https://crookedvinewine.com/",
+  "phone": "(231) 203-4790",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.429022%2C-84.775235&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.429022%2C-84.775235",
+  "view": "vineyard",
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "quiet",
+  "specialties": [
+   "wine",
+   "cider"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "seasons-of-the-north",
+  "name": "Seasons of the North Winery",
+  "area": "harbor-alanson",
+  "town": "Alanson",
+  "lat": 45.406319,
+  "lng": -84.673413,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "beer",
+   "cider"
+  ],
+  "tags": [
+   "light-bites",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 40,
+  "note": "Out on M-68 toward Indian River, at the eastern edge of the trail. Wine, beer and cider under one roof with light bites, and a Tuesday and Wednesday closure worth checking before you drive out.",
+  "hours": {
+   "Monday": {
+    "open": "12:00",
+    "close": "18:00"
+   },
+   "Thursday": {
+    "open": "12:00",
+    "close": "18:00"
+   },
+   "Friday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Saturday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "17:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "9090 M-68, Alanson, MI 49706",
+  "website": "http://www.seasonsofthenorth.com/",
+  "phone": "(231) 548-1280",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.406319%2C-84.673413&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.406319%2C-84.673413",
+  "view": null,
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "casual",
+  "specialties": [
+   "wine",
+   "cider",
+   "beer"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "spare-key",
+  "name": "Spare Key Winery",
+  "area": "charlevoix",
+  "town": "Bay Shore",
+  "lat": 45.349711,
+  "lng": -85.117667,
+  "category": "winery",
+  "beverages": [
+   "wine"
+  ],
+  "tags": [
+   "light-bites",
+   "kid-friendly",
+   "bay-side"
+  ],
+  "dwellMinutes": 40,
+  "note": "On Upper Bay Shore Road between Petoskey and Charlevoix, which makes it the natural hinge stop if you are running the whole shoreline in one day. Closed Mondays.",
+  "hours": {
+   "Tuesday": {
+    "open": "13:00",
+    "close": "18:00"
+   },
+   "Wednesday": {
+    "open": "13:00",
+    "close": "18:00"
+   },
+   "Thursday": {
+    "open": "13:00",
+    "close": "18:00"
+   },
+   "Friday": {
+    "open": "12:00",
+    "close": "18:00"
+   },
+   "Saturday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "17:00"
+   }
+  },
+  "openDays": [
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "06872 Upper Bay Shore Road, Charlevoix, MI 49720",
+  "website": "http://www.sparekeywinery.com/",
+  "phone": "(231) 237-4785",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.349711%2C-85.117667&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.349711%2C-85.117667",
+  "view": "country",
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "small-batch",
+  "specialties": [
+   "small-batch wine"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "blu-dot",
+  "name": "Blu Dot Farm & Vineyard",
+  "area": "charlevoix",
+  "town": "Charlevoix",
+  "lat": 45.332157,
+  "lng": -85.207433,
+  "category": "winery",
+  "beverages": [
+   "wine"
+  ],
+  "tags": [
+   "estate-grown",
+   "seasonal"
+  ],
+  "dwellMinutes": 40,
+  "note": "A farm vineyard on Boyne City Road outside Charlevoix, open in season from May through October, afternoons into the evening.",
+  "hours": {
+   "Monday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Tuesday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Wednesday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Thursday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Friday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Saturday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "19:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "11399 Boyne City Road, Charlevoix, MI 49720",
+  "website": "https://www.bludotwine.com",
+  "phone": "(231) 622-3753",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.332157%2C-85.207433&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.332157%2C-85.207433",
+  "view": "vineyard",
+  "food": null,
+  "dogFriendly": null,
+  "vibe": "farm",
+  "specialties": [
+   "estate wine"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  },
+  "seasonal": "Open in season, May through October"
+ },
+ {
+  "id": "royal-farms",
+  "name": "The Cellars at Royal Farms",
+  "area": "charlevoix",
+  "town": "Ellsworth",
+  "lat": 45.185157,
+  "lng": -85.345796,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "farm-market",
+   "bakery",
+   "light-bites",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 45,
+  "note": "A farm market first, with a tasting room attached, on US-31 in Ellsworth at the south end of the region. Cider, wine, bakery and the market itself, which is worth the stop on its own.",
+  "hours": {
+   "Monday": {
+    "open": "11:00",
+    "close": "18:00"
+   },
+   "Tuesday": {
+    "open": "11:00",
+    "close": "18:00"
+   },
+   "Wednesday": {
+    "open": "11:00",
+    "close": "18:00"
+   },
+   "Thursday": {
+    "open": "11:00",
+    "close": "18:00"
+   },
+   "Friday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Saturday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "11:00",
+    "close": "18:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "10445 US-31, Ellsworth, MI 49729",
+  "website": "https://www.royalfarmsinc.com/",
+  "phone": "(231) 599-3222",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.185157%2C-85.345796&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.185157%2C-85.345796",
+  "view": "orchard",
+  "food": "bakery and market",
+  "dogFriendly": null,
+  "vibe": "farm market",
+  "specialties": [
+   "hard cider",
+   "fruit wine",
+   "bakery"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "cellar-1914",
+  "name": "Cellar 1914",
+  "area": "charlevoix",
+  "town": "Central Lake",
+  "lat": 45.118861,
+  "lng": -85.307892,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "light-bites",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 40,
+  "note": "The southern outpost of the trail, on Shooks Road in Central Lake, close enough to the Chain of Lakes to pair with a paddle day.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "5833 Shooks Road, Central Lake, MI 49622",
+  "website": "https://www.cellar1914.com",
+  "phone": "(231) 676-8743",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.118861%2C-85.307892&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.118861%2C-85.307892",
+  "view": null,
+  "food": "light bites",
+  "dogFriendly": null,
+  "vibe": "casual",
+  "specialties": [
+   "wine",
+   "cider"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "vanderbilt-vines",
+  "name": "Vanderbilt Vines",
+  "area": "boyne-walloon",
+  "town": "Vanderbilt",
+  "lat": 45.223644,
+  "lng": -84.767994,
+  "category": "winery",
+  "beverages": [
+   "wine"
+  ],
+  "tags": [
+   "far-east",
+   "kid-friendly"
+  ],
+  "dwellMinutes": 40,
+  "note": "The far eastern member, on Thumb Lake Road in Vanderbilt. It is a real drive from the Petoskey cluster, so treat it as its own trip or pair it with the Thumb Lake and Pigeon River country run.",
+  "hours": {
+   "Monday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Wednesday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Thursday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Friday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Saturday": {
+    "open": "12:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "17:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "302 W Thumb Lake Road, Vanderbilt, MI 49795",
+  "website": "https://vanderbiltvineswinery.com/",
+  "phone": "(989) 448-6221",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.223644%2C-84.767994&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.223644%2C-84.767994",
+  "view": null,
+  "food": null,
+  "dogFriendly": null,
+  "vibe": "quiet",
+  "specialties": [
+   "wine"
+  ],
+  "officialTrail": {
+   "name": "Petoskey Wine Region",
+   "url": "https://petoskey.wine/",
+   "verifiedAt": "2026-09-18"
+  }
+ },
+ {
+  "id": "pond-hill",
+  "name": "Pond Hill Farm",
+  "area": "harbor-alanson",
+  "town": "Harbor Springs",
+  "lat": 45.473287,
+  "lng": -85.055871,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "beer",
+   "cider"
+  ],
+  "tags": [
+   "farm",
+   "kid-friendly",
+   "food",
+   "brewery-on-site",
+   "tunnel-of-trees"
+  ],
+  "dwellMinutes": 75,
+  "note": "A working farm on M-119 just up from Harbor Springs, at the start of the Tunnel of Trees, with a winery, a brewery, a cafe and enough for kids to do that it works as the long stop of the day.",
+  "hours": {
+   "Wednesday": {
+    "open": "12:00",
+    "close": "20:00"
+   },
+   "Thursday": {
+    "open": "12:00",
+    "close": "20:00"
+   },
+   "Friday": {
+    "open": "12:00",
+    "close": "20:00"
+   },
+   "Saturday": {
+    "open": "12:00",
+    "close": "20:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "18:00"
+   }
+  },
+  "openDays": [
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "5699 S Lake Shore Drive, Harbor Springs, MI 49740",
+  "website": "https://www.pondhill.com/",
+  "phone": "(231) 526-3276",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.473287%2C-85.055871&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.473287%2C-85.055871",
+  "view": "farm",
+  "food": "cafe",
+  "dogFriendly": true,
+  "vibe": "family farm",
+  "specialties": [
+   "estate wine",
+   "farm beer",
+   "hard cider"
+  ],
+  "officialTrail": null,
+  "seasonal": "Hours shift by season and during fall fest weekends"
+ },
+ {
+  "id": "1918-cellars",
+  "name": "1918 Cellars at Castle Farms",
+  "area": "charlevoix",
+  "town": "Charlevoix",
+  "lat": 45.28052,
+  "lng": -85.2302,
+  "category": "winery",
+  "beverages": [
+   "wine",
+   "cider"
+  ],
+  "tags": [
+   "historic",
+   "grounds",
+   "grab-and-go"
+  ],
+  "dwellMinutes": 45,
+  "note": "A tasting room in a historic wing of Castle Farms on M-66, so the stop comes with the grounds and the stonework attached. Wine and cider with grab-and-go food.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "5052 M-66 North, Charlevoix, MI 49720",
+  "website": "https://castlefarms.com/",
+  "phone": "(231) 237-0884",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.28052%2C-85.2302&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.28052%2C-85.2302",
+  "view": "historic grounds",
+  "food": "grab and go",
+  "dogFriendly": null,
+  "vibe": "historic",
+  "specialties": [
+   "wine",
+   "cider"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "beards-brewery",
+  "name": "Beards Brewery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.375201,
+  "lng": -84.957812,
+  "category": "brewery",
+  "beverages": [
+   "beer"
+  ],
+  "tags": [
+   "downtown",
+   "walkable",
+   "taproom"
+  ],
+  "dwellMinutes": 45,
+  "note": "Downtown Petoskey, walking distance from the Gaslight District and Bayfront Park, which makes it the easy last stop if you end the day in town.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "Petoskey, MI 49770",
+  "website": "https://beardsbrewery.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.375201%2C-84.957812&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.375201%2C-84.957812",
+  "view": null,
+  "food": "food",
+  "dogFriendly": null,
+  "vibe": "taproom",
+  "specialties": [
+   "beer"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "petoskey-brewing",
+  "name": "Petoskey Brewing",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.396839,
+  "lng": -84.903056,
+  "category": "brewery",
+  "beverages": [
+   "beer"
+  ],
+  "tags": [
+   "historic-building",
+   "taphouse",
+   "food"
+  ],
+  "dwellMinutes": 50,
+  "note": "In the 1898 brewery building on M-119 on the way to Harbor Springs, with a full kitchen. Open daily into the evening, which is useful when everything else has closed at five.",
+  "hours": {
+   "Monday": {
+    "open": "11:30",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "11:30",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "11:30",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "11:30",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "11:30",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "11:30",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "11:30",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "address": "1844 M-119, Petoskey, MI 49770",
+  "website": "https://petoskeybrewing.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.396839%2C-84.903056&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.396839%2C-84.903056",
+  "view": null,
+  "food": "full kitchen",
+  "dogFriendly": null,
+  "vibe": "taphouse",
+  "specialties": [
+   "beer"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "elder-piper",
+  "name": "Elder Piper Beer & Cider",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.368536,
+  "lng": -84.960535,
+  "category": "cidery",
+  "beverages": [
+   "cider",
+   "beer"
+  ],
+  "tags": [
+   "downtown",
+   "walkable",
+   "bottle-shop"
+  ],
+  "dwellMinutes": 40,
+  "note": "A beer and cider bar on Mitchell Street in downtown Petoskey, walkable with the rest of the Gaslight District stops.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "Petoskey, MI 49770",
+  "website": "https://www.elderpiper.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.368536%2C-84.960535&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.368536%2C-84.960535",
+  "view": null,
+  "food": "small plates",
+  "dogFriendly": null,
+  "vibe": "bar",
+  "specialties": [
+   "cider",
+   "beer"
+  ],
+  "officialTrail": null
+ }
+]

@@ -1,0 +1,1196 @@
+[
+ {
+  "id": "petoskey-state-park",
+  "name": "Petoskey State Park",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.39979,
+  "lng": -84.90865,
+  "kind": "beach",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "beach"
+  ],
+  "dwellMinutes": 75,
+  "note": "The classic Petoskey stone beach on Little Traverse Bay, with a dune trail behind it. Best hunting is right at the waterline after a blow.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": "Michigan Recreation Passport",
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.39979%2C-84.90865&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.39979%2C-84.90865"
+ },
+ {
+  "id": "magnus-park",
+  "name": "Magnus Park Beach",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.37312,
+  "lng": -84.97446,
+  "kind": "beach",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "beach"
+  ],
+  "dwellMinutes": 45,
+  "note": "City park beach west of downtown, quieter than the state park and a good stone-hunting stretch in the shallows.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.37312%2C-84.97446&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.37312%2C-84.97446"
+ },
+ {
+  "id": "bayfront-park-petoskey",
+  "name": "Bayfront Park",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.37843,
+  "lng": -84.95386,
+  "kind": "town",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "town"
+  ],
+  "dwellMinutes": 45,
+  "note": "Petoskey's waterfront: the marina, the Wheelway trailhead, the sunset view down the bay, and a short walk up the hill into the Gaslight District.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.37843%2C-84.95386&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.37843%2C-84.95386"
+ },
+ {
+  "id": "sunset-park-petoskey",
+  "name": "Sunset Park",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.37933,
+  "lng": -84.95183,
+  "kind": "scenic",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "scenic"
+  ],
+  "dwellMinutes": 20,
+  "note": "A small bluff park above the bay. The best five-minute view in town and the reason the sunset crowd parks along Bayfront.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.37933%2C-84.95183&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.37933%2C-84.95183"
+ },
+ {
+  "id": "gaslight-district",
+  "name": "Gaslight District",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.37377,
+  "lng": -84.95699,
+  "kind": "town",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "town"
+  ],
+  "dwellMinutes": 60,
+  "note": "Downtown Petoskey: brick storefronts, bookshops, a long block of restaurants, and Beards and Elder Piper both within a few minutes' walk.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.37377%2C-84.95699&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.37377%2C-84.95699"
+ },
+ {
+  "id": "little-traverse-wheelway",
+  "name": "Little Traverse Wheelway",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.3829,
+  "lng": -84.94201,
+  "kind": "hike",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "hike"
+  ],
+  "dwellMinutes": 60,
+  "note": "A paved shoreline trail running the bay between Charlevoix, Petoskey and Harbor Springs. The Petoskey to Bay View stretch is the one to walk if you only have an hour.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.3829%2C-84.94201&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.3829%2C-84.94201"
+ },
+ {
+  "id": "bay-view",
+  "name": "Bay View",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.38556,
+  "lng": -84.93033,
+  "kind": "history",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "history"
+  ],
+  "dwellMinutes": 40,
+  "note": "A National Historic Landmark Chautauqua community of Victorian cottages above the bay, right next door to Petoskey. Drive it slowly or walk it.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.38556%2C-84.93033&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.38556%2C-84.93033"
+ },
+ {
+  "id": "thorne-swift",
+  "name": "Thorne Swift Nature Preserve",
+  "area": "harbor-alanson",
+  "town": "Harbor Springs",
+  "lat": 45.453451,
+  "lng": -85.061687,
+  "kind": "hike",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "hike"
+  ],
+  "dwellMinutes": 60,
+  "note": "Cedar swamp boardwalk out to a Lake Michigan dune beach off M-119. Short, shaded and a good leg-stretch between Tunnel of Trees stops.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": "Day-use fee in season",
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.453451%2C-85.061687&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.453451%2C-85.061687"
+ },
+ {
+  "id": "zorn-park",
+  "name": "Zorn Park Beach",
+  "area": "harbor-alanson",
+  "town": "Harbor Springs",
+  "lat": 45.42836,
+  "lng": -84.98996,
+  "kind": "beach",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "beach"
+  ],
+  "dwellMinutes": 45,
+  "note": "The town beach right at the foot of Harbor Springs, looking straight out at the deepest natural harbor on Lake Michigan.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.42836%2C-84.98996&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.42836%2C-84.98996"
+ },
+ {
+  "id": "downtown-harbor-springs",
+  "name": "Downtown Harbor Springs",
+  "area": "harbor-alanson",
+  "town": "Harbor Springs",
+  "lat": 45.43168,
+  "lng": -84.992,
+  "kind": "town",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "town"
+  ],
+  "dwellMinutes": 60,
+  "note": "Three blocks of shops and restaurants on the harbor, the start of the Tunnel of Trees, and the most photographed main street in the region.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.43168%2C-84.992&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.43168%2C-84.992"
+ },
+ {
+  "id": "tunnel-of-trees",
+  "name": "Tunnel of Trees, M-119",
+  "area": "harbor-alanson",
+  "town": "Good Hart",
+  "lat": 45.60514,
+  "lng": -85.08605,
+  "kind": "scenic",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "scenic"
+  ],
+  "dwellMinutes": 90,
+  "note": "Twenty miles of narrow, canopied road between Harbor Springs and Cross Village with no centerline and Lake Michigan flashing through the trees. Budget the full drive, not a shortcut.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.60514%2C-85.08605&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.60514%2C-85.08605"
+ },
+ {
+  "id": "legs-inn",
+  "name": "Legs Inn, Cross Village",
+  "area": "harbor-alanson",
+  "town": "Cross Village",
+  "lat": 45.64267,
+  "lng": -85.03722,
+  "kind": "food",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "food"
+  ],
+  "dwellMinutes": 75,
+  "note": "Stone and driftwood roadhouse at the top of the Tunnel of Trees serving Polish food, with a garden looking out over Lake Michigan. Seasonal, and worth timing the drive around.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.64267%2C-85.03722&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.64267%2C-85.03722",
+  "seasonal": "Seasonal, typically May through late October"
+ },
+ {
+  "id": "oden-hatchery",
+  "name": "Oden State Fish Hatchery",
+  "area": "harbor-alanson",
+  "town": "Alanson",
+  "lat": 45.4286,
+  "lng": -84.84902,
+  "kind": "history",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "history"
+  ],
+  "dwellMinutes": 45,
+  "note": "A free visitor center and show pond on the Crooked River side of the region, and an easy add if you are already driving out to Crooked Vine or Seasons of the North.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.4286%2C-84.84902&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.4286%2C-84.84902"
+ },
+ {
+  "id": "alanson-swing-bridge",
+  "name": "Alanson Swing Bridge",
+  "area": "harbor-alanson",
+  "town": "Alanson",
+  "lat": 45.44418,
+  "lng": -84.78671,
+  "kind": "scenic",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "scenic"
+  ],
+  "dwellMinutes": 20,
+  "note": "The hand-operated swing bridge on the Inland Water Route. Five minutes, but you will stop anyway if a boat is coming through.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.44418%2C-84.78671&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.44418%2C-84.78671"
+ },
+ {
+  "id": "walloon-lake-village",
+  "name": "Village of Walloon Lake",
+  "area": "boyne-walloon",
+  "town": "Walloon Lake",
+  "lat": 45.26612,
+  "lng": -84.93366,
+  "kind": "town",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "town"
+  ],
+  "dwellMinutes": 60,
+  "note": "The rebuilt lakefront village at the foot of Walloon Lake: a hotel, a couple of restaurants, the public dock, and the Hemingway connection that put the lake on the map.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.26612%2C-84.93366&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.26612%2C-84.93366"
+ },
+ {
+  "id": "horton-bay",
+  "name": "Horton Bay",
+  "area": "boyne-walloon",
+  "town": "Horton Bay",
+  "lat": 45.28445,
+  "lng": -85.07895,
+  "kind": "history",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "history"
+  ],
+  "dwellMinutes": 30,
+  "note": "The general store and the crossroads Hemingway wrote into the Nick Adams stories, on the back road between Walloon Lake and Charlevoix.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.28445%2C-85.07895&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.28445%2C-85.07895"
+ },
+ {
+  "id": "young-state-park",
+  "name": "Young State Park",
+  "area": "boyne-walloon",
+  "town": "Boyne City",
+  "lat": 45.2333,
+  "lng": -85.04927,
+  "kind": "beach",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "beach"
+  ],
+  "dwellMinutes": 75,
+  "note": "Beach and hiking trails at the south arm of Lake Charlevoix, a short run from Boyne City.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": "Michigan Recreation Passport",
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.2333%2C-85.04927&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.2333%2C-85.04927"
+ },
+ {
+  "id": "avalanche-preserve",
+  "name": "Avalanche Preserve",
+  "area": "boyne-walloon",
+  "town": "Boyne City",
+  "lat": 45.19797,
+  "lng": -85.00999,
+  "kind": "hike",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "hike"
+  ],
+  "dwellMinutes": 60,
+  "note": "The 462-stair climb to the overlook above Boyne City and the south arm of Lake Charlevoix. The best earned view in the region.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.19797%2C-85.00999&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.19797%2C-85.00999"
+ },
+ {
+  "id": "veterans-park-boyne",
+  "name": "Veterans Memorial Park",
+  "area": "boyne-walloon",
+  "town": "Boyne City",
+  "lat": 45.2172,
+  "lng": -85.01759,
+  "kind": "beach",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "beach"
+  ],
+  "dwellMinutes": 45,
+  "note": "Boyne City's waterfront park and swimming beach on Lake Charlevoix, with the farmers market nearby in season.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.2172%2C-85.01759&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.2172%2C-85.01759"
+ },
+ {
+  "id": "fishermans-island",
+  "name": "Fisherman's Island State Park",
+  "area": "charlevoix",
+  "town": "Charlevoix",
+  "lat": 45.26446,
+  "lng": -85.36104,
+  "kind": "beach",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "beach"
+  ],
+  "dwellMinutes": 90,
+  "note": "Miles of undeveloped Lake Michigan shoreline south of Charlevoix and the region's serious Petoskey stone beach. Wild, quiet, and worth the gravel road in.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": "Michigan Recreation Passport",
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.26446%2C-85.36104&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.26446%2C-85.36104"
+ },
+ {
+  "id": "mt-mcsauba",
+  "name": "Mount McSauba Recreation Area",
+  "area": "charlevoix",
+  "town": "Charlevoix",
+  "lat": 45.31902,
+  "lng": -85.24509,
+  "kind": "hike",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "hike"
+  ],
+  "dwellMinutes": 60,
+  "note": "Dune and forest trails above the Lake Michigan beach on the north edge of Charlevoix, with a real overlook at the top.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.31902%2C-85.24509&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.31902%2C-85.24509"
+ },
+ {
+  "id": "charlevoix-south-pier",
+  "name": "Charlevoix South Pier Light",
+  "area": "charlevoix",
+  "town": "Charlevoix",
+  "lat": 45.32025,
+  "lng": -85.2649,
+  "kind": "lighthouse",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "lighthouse"
+  ],
+  "dwellMinutes": 40,
+  "note": "The red pier light at the channel between Round Lake and Lake Michigan. Walk out and wait for a freighter or the drawbridge to open.",
+  "hours": {
+   "Monday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Tuesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Wednesday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Thursday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Friday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Saturday": {
+    "open": "08:00",
+    "close": "21:00"
+   },
+   "Sunday": {
+    "open": "08:00",
+    "close": "21:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.32025%2C-85.2649&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.32025%2C-85.2649"
+ },
+ {
+  "id": "downtown-charlevoix",
+  "name": "Downtown Charlevoix",
+  "area": "charlevoix",
+  "town": "Charlevoix",
+  "lat": 45.30807,
+  "lng": -85.25873,
+  "kind": "town",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "town"
+  ],
+  "dwellMinutes": 60,
+  "note": "Bridge Street between the drawbridge and Round Lake, plus the Earl Young mushroom houses a few blocks off it.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": null,
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.30807%2C-85.25873&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.30807%2C-85.25873"
+ },
+ {
+  "id": "ironton-ferry",
+  "name": "Ironton Ferry",
+  "area": "charlevoix",
+  "town": "Ironton",
+  "lat": 45.2562,
+  "lng": -85.18514,
+  "kind": "history",
+  "category": "sight",
+  "isPoi": true,
+  "beverages": [],
+  "tags": [
+   "history"
+  ],
+  "dwellMinutes": 20,
+  "note": "A cable ferry that has been crossing the narrows of Lake Charlevoix since 1876 and carries four cars at a time. It is a shortcut and an attraction at once.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "fee": "Small toll",
+  "dogFriendly": null,
+  "website": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.2562%2C-85.18514&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.2562%2C-85.18514",
+  "seasonal": "Runs seasonally, typically spring through fall"
+ }
+]
