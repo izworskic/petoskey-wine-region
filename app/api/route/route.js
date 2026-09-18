@@ -26,7 +26,7 @@ export async function POST(req) {
     : `https://router.project-osrm.org/route/v1/driving/${coordStr}?geometries=geojson&overview=full`;
 
   try {
-    const r = await fetch(url, { headers: { "User-Agent": "tcwine-planner" } });
+    const r = await fetch(url, { headers: { "User-Agent": "petoskey-wine-planner" } });
     if (!r.ok) return Response.json({ ok: false, error: `routing ${r.status}` }, { status: 502 });
     const j = await r.json();
     const route = j.routes && j.routes[0];
