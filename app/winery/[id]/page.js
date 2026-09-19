@@ -16,10 +16,15 @@ function find(id) {
 export function generateMetadata({ params }) {
   const v = find(params.id);
   if (!v) return {};
-  const title = `${v.name}, ${v.town}`;
+  // The hub caps SERP titles at 60 characters and descriptions at 158, so these
+  // are absolute rather than run through the layout title template, and they
+  // step down to the bare name when a venue is long enough to blow the cap.
+  const withTown = `${v.name}, ${v.town}`;
+  const title = withTown.length <= 60 ? withTown : v.name.length <= 60 ? v.name : v.name.slice(0, 59).trim();
+  const description = `${v.name} in ${v.town}: posted hours, what it pours, and the nearest stops to pair it with.`;
   return {
-    title,
-    description: `${v.name} in ${v.town}, Michigan: hours, what it pours, where it sits in the Petoskey Wine Region, and the nearest stops to pair it with.`,
+    title: { absolute: title },
+    description,
     alternates: { canonical: `https://chrisizworski.com/petoskey-wine/winery/${v.id}/` },
     openGraph: { title, url: `${BASE}/winery/${v.id}` },
   };

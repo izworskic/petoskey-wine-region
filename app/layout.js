@@ -4,10 +4,10 @@ export const metadata = {
   metadataBase: new URL("https://chrisizworski.com/petoskey-wine"),
   title: {
     default: "Petoskey Wine Region Map and Wine Tour Planner",
-    template: "%s | Petoskey Wine Region Planner",
+    template: "%s | Petoskey Wine",
   },
   description:
-    "Interactive map of the 14 Petoskey Wine Region wineries around Walloon Lake, Petoskey, Harbor Springs and Charlevoix, with real-road routing and posted tasting room hours.",
+    "Interactive map of the Petoskey Wine Region wineries around Walloon Lake, Petoskey, Harbor Springs and Charlevoix, with routing and posted hours.",
   authors: [{ name: "Chris Izworski", url: "https://chrisizworski.com/" }],
   creator: "Chris Izworski",
 };
