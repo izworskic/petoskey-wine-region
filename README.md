@@ -50,9 +50,8 @@ npm run build
 
 ## Environment
 
-- `NEXT_PUBLIC_CARTO_API_KEY`: CARTO basemap key. Without it the map falls back to OpenStreetMap
-  raster tiles.
-- `MAPBOX_TOKEN`: optional. Without it `/api/route` uses the public OSRM demo server.
+- The map uses OpenStreetMap raster tiles with attribution; no basemap key is required.
+- `MAPBOX_TOKEN`: optional in the hub deployment. Without it `/api/petoskey-route` uses the public OSRM demo server.
 
 ## Data
 
@@ -74,9 +73,14 @@ To publish a data or design change:
 
 ```bash
 npm test                                              # data gate
-NEXT_PUBLIC_CARTO_API_KEY=<carto key> npm run export:hub
+npm run export:hub
 cp -r out/. <hub>/public/petoskey-wine/
 cd <hub> && node scripts/build-petoskey-wine-sitemap.mjs && npm test
 ```
 
 The standalone Vercel project on this repo now 301s every path to the hub.
+
+The hub build adds the AdSense publisher metadata and async loader to the HTML
+head of eligible pages, plus publisher/privacy navigation. It uses
+`ca-pub-8222782620788075`; the seller record lives at the hub's `/ads.txt`.
+Do not add a second loader to this planner or hand-edit the vendored output.
