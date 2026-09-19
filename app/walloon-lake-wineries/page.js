@@ -5,7 +5,7 @@ import PlannerMount from "@/components/PlannerMount";
 export const metadata = {
   title: 'Walloon Lake and Boyne area wineries',
   description: 'The wineries closest to Walloon Lake and Boyne City, the shortest real loop in the Petoskey Wine Region, and what to do with the rest of the day.',
-  alternates: { canonical: "/walloon-lake-wineries" },
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/walloon-lake-wineries/" },
 };
 
 export default function Page() {

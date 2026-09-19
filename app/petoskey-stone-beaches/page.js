@@ -5,7 +5,7 @@ import PlannerMount from "@/components/PlannerMount";
 export const metadata = {
   title: 'Petoskey stone beaches near the wineries',
   description: 'Where to hunt Petoskey stones between tasting stops, which beaches actually produce, and how to work one into a wine day.',
-  alternates: { canonical: "/petoskey-stone-beaches" },
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-stone-beaches/" },
 };
 
 export default function Page() {

@@ -44,8 +44,8 @@ const FAQ = [
 export const metadata = {
   title: "Petoskey Wine Region Map and Wine Tour Planner",
   description:
-    "Interactive map of the 14 Petoskey Wine Region wineries around Walloon Lake, Petoskey, Harbor Springs and Charlevoix. Pick your stops, route real roads, and time the day against posted hours.",
-  alternates: { canonical: "/" },
+    "Plan a Petoskey wine day: pick the tasting rooms you want and get a routed loop that respects posted hours, the drive between stops and the stones.",
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/" },
   openGraph: {
     title: "Petoskey Wine Region Map and Wine Tour Planner",
     description:
