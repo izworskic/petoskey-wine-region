@@ -24,8 +24,9 @@ and forked from the Traverse City planner (izworskic/tcwine).
 
 `data/venues.json` carries posted hours only where the venue actually publishes a weekly schedule.
 Anything else is `needsHours: true`, which renders as call ahead with a phone number. The planner
-treats those as unknown rather than guessing. As of the September 18 2026 build, 8 of 19 stops
-publish verifiable hours.
+treats those as unknown rather than guessing. As of the September 18 2026 build, 11 of 19 stops publish verifiable hours. Three of those are
+seasonal or narrowed schedules and carry a note saying so, including Crooked Vine's fall window
+and Petoskey Farms' Sunday only listing.
 
 Coordinates come from each venue's own map embed on petoskey.wine, cross-checked against
 OpenStreetMap and Nominatim. Two candidate stops were dropped rather than given approximate

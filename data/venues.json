@@ -63,9 +63,16 @@
   ],
   "dwellMinutes": 45,
   "note": "A vineyard tasting room on Atkins Road east of town, set up for sitting outside with heaters on the patio when the air turns. Light bites and table service rather than a bar-rail pour.",
-  "hours": {},
-  "openDays": [],
-  "needsHours": true,
+  "hours": {
+   "Sunday": {
+    "open": "10:00",
+    "close": "18:00"
+   }
+  },
+  "openDays": [
+   "Sunday"
+  ],
+  "needsHours": false,
   "address": "3720 Atkins Road, Petoskey, MI 49770",
   "website": "https://www.petoskeyfarms.com/",
   "phone": "(231) 290-9463",
@@ -83,7 +90,8 @@
    "name": "Petoskey Wine Region",
    "url": "https://petoskey.wine/",
    "verifiedAt": "2026-09-18"
-  }
+  },
+  "seasonal": "The site currently posts Sunday 10am to 6pm and lists Monday through Saturday as closed. That is a narrow off-season schedule, so call before driving out on any other day."
  },
  {
   "id": "maple-moon",
@@ -149,9 +157,46 @@
   ],
   "dwellMinutes": 50,
   "note": "The largest and most decorated label on the trail, on 30 acres along US-131 south of town, with a small bistro and a long list that runs from dry reds and whites to the fruit wines the Stabile family is known for.",
-  "hours": {},
-  "openDays": [],
-  "needsHours": true,
+  "hours": {
+   "Monday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Tuesday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Wednesday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Thursday": {
+    "open": "11:00",
+    "close": "19:00"
+   },
+   "Friday": {
+    "open": "10:00",
+    "close": "19:00"
+   },
+   "Saturday": {
+    "open": "10:00",
+    "close": "19:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "18:00"
+   }
+  },
+  "openDays": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
   "address": "3423 US-131, Petoskey, MI 49770",
   "website": "https://www.mackinawtrailwinery.com/",
   "phone": "(231) 487-1910",
@@ -170,7 +215,8 @@
    "name": "Petoskey Wine Region",
    "url": "https://petoskey.wine/",
    "verifiedAt": "2026-09-18"
-  }
+  },
+  "seasonal": "These are the Petoskey tasting room hours. The winery also runs a separate Mackinaw City room on different hours. The site prints Monday through Thursday as 11am to 7am, which is a typo for 7pm."
  },
  {
   "id": "boyne-valley-vineyards",
@@ -361,9 +407,26 @@
   ],
   "dwellMinutes": 40,
   "note": "A quiet stop on Lakeview Road in Alanson, at the north end of the region near the Inland Water Route. Wine and cider with light bites.",
-  "hours": {},
-  "openDays": [],
-  "needsHours": true,
+  "hours": {
+   "Friday": {
+    "open": "12:00",
+    "close": "17:00"
+   },
+   "Saturday": {
+    "open": "12:00",
+    "close": "17:00"
+   },
+   "Sunday": {
+    "open": "12:00",
+    "close": "17:00"
+   }
+  },
+  "openDays": [
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "needsHours": false,
   "address": "8370 Lakeview Road, Alanson, MI 49706",
   "website": "https://crookedvinewine.com/",
   "phone": "(231) 203-4790",
@@ -381,7 +444,8 @@
    "name": "Petoskey Wine Region",
    "url": "https://petoskey.wine/",
    "verifiedAt": "2026-09-18"
-  }
+  },
+  "seasonal": "Seasonal. Fall, September 1 to October 31, is Friday through Sunday 12pm to 5pm. Summer, June 1 to August 31, is Tuesday through Sunday. Winter and spring are not posted, so call."
  },
  {
   "id": "seasons-of-the-north",
@@ -1025,7 +1089,7 @@
   "openDays": [],
   "needsHours": true,
   "address": "Petoskey, MI 49770",
-  "website": "https://www.elderpiper.com/",
+  "website": null,
   "phone": null,
   "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.368536%2C-84.960535&travelmode=driving",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.368536%2C-84.960535",
