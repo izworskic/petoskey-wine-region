@@ -7,7 +7,7 @@ export const metadata = {
   title: "Petoskey area winery and tasting room hours",
   description:
     "Posted hours for every winery, cidery and brewery in the Petoskey Wine Region and around Little Traverse Bay, with call ahead flags where a stop does not publish a weekly schedule.",
-  alternates: { canonical: "/venues" },
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/venues/" },
 };
 
 export default function VenuesPage() {

@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "node scripts/check-data.mjs",
-    "check": "npm run test && npm run build"
+    "check": "npm run test && npm run build",
+    "export:hub": "next build"
   },
   "dependencies": {
     "leaflet": "1.9.4",

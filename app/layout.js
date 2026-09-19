@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://petoskeywine.chrisizworski.com"),
+  metadataBase: new URL("https://chrisizworski.com/petoskey-wine"),
   title: {
     default: "Petoskey Wine Region Map and Wine Tour Planner",
     template: "%s | Petoskey Wine Region Planner",

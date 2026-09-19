@@ -5,7 +5,7 @@ import PlannerMount from "@/components/PlannerMount";
 export const metadata = {
   title: 'The 14 wineries of the Petoskey Wine Region',
   description: 'Every current member of the Petoskey Wine Region trail, where each one sits, what it pours, and how to group them into a day that actually works.',
-  alternates: { canonical: "/petoskey-wine-region-trail" },
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-wine-region-trail/" },
 };
 
 export default function Page() {

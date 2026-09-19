@@ -20,7 +20,7 @@ export function generateMetadata({ params }) {
   return {
     title,
     description: `${v.name} in ${v.town}, Michigan: hours, what it pours, where it sits in the Petoskey Wine Region, and the nearest stops to pair it with.`,
-    alternates: { canonical: `/winery/${v.id}` },
+    alternates: { canonical: `https://chrisizworski.com/petoskey-wine/winery/${v.id}/` },
     openGraph: { title, url: `${BASE}/winery/${v.id}` },
   };
 }

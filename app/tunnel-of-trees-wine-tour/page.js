@@ -5,7 +5,7 @@ import PlannerMount from "@/components/PlannerMount";
 export const metadata = {
   title: 'Harbor Springs, Pond Hill and the Tunnel of Trees',
   description: 'How to combine the M-119 Tunnel of Trees drive with a tasting stop at Pond Hill Farm, and how long the drive really takes.',
-  alternates: { canonical: "/tunnel-of-trees-wine-tour" },
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/tunnel-of-trees-wine-tour/" },
 };
 
 export default function Page() {

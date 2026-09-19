@@ -60,3 +60,23 @@ npm run build
   including four distilleries and four breweries that sit outside the wine trail).
 - `data/pois.json`: 27 places worth stopping between them.
 - `data/origins.json`: start towns.
+
+## Where this ships
+
+The planner lives on the hub at https://chrisizworski.com/petoskey-wine/. This repo is
+the source; the hub carries the built output.
+
+It builds as a Next static export with `basePath: "/petoskey-wine"`, because the hub is a
+static site rather than a Next app. The one server dependency, road routing, lives in the
+hub as `api/petoskey-route.js` and the planner calls it at `/api/petoskey-route`.
+
+To publish a data or design change:
+
+```bash
+npm test                                              # data gate
+NEXT_PUBLIC_CARTO_API_KEY=<carto key> npm run export:hub
+cp -r out/. <hub>/public/petoskey-wine/
+cd <hub> && node scripts/build-petoskey-wine-sitemap.mjs && npm test
+```
+
+The standalone Vercel project on this repo now 301s every path to the hub.

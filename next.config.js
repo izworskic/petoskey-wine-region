@@ -1,23 +1,13 @@
 /** @type {import('next').NextConfig} */
+// The tool ships as a static export vendored into the chrisizworski.com hub at
+// /petoskey-wine/. The hub is a static site, not a Next app, so nothing here can
+// rely on a Next server at runtime. The one server dependency, the routing
+// proxy, lives in the hub as api/petoskey-route.js.
 const nextConfig = {
   reactStrictMode: true,
-  async headers() {
-    return [
-      {
-        source: "/embed/:path*",
-        headers: [
-          { key: "Content-Security-Policy", value: "frame-ancestors *" },
-          { key: "X-Robots-Tag", value: "noindex, follow" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        ],
-      },
-      {
-        source: "/for-publishers",
-        headers: [
-          { key: "X-Robots-Tag", value: "noindex, follow" },
-        ],
-      },
-    ];
-  },
+  output: "export",
+  basePath: "/petoskey-wine",
+  trailingSlash: true,
+  images: { unoptimized: true },
 };
 module.exports = nextConfig;

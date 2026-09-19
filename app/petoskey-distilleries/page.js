@@ -6,7 +6,7 @@ export const metadata = {
   title: "Petoskey and Boyne City distilleries",
   description:
     "The four distilleries around Petoskey, Bay Harbor and Boyne City: Mammoth, Gypsy, High Five and Muskrat, where each sits, and which you can walk between.",
-  alternates: { canonical: "/petoskey-distilleries" },
+  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-distilleries/" },
 };
 
 export default function Page() {

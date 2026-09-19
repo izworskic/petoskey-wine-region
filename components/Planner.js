@@ -370,7 +370,7 @@ export default function Planner({
     async function fetchRoute(orderedIds){
       const pts = [[originPt().lng,originPt().lat], ...orderedIds.map((id)=>{ const c=coords(id); return [c.lng,c.lat]; }), [originPt().lng,originPt().lat]];
       try{
-        const r = await fetch("/api/route",{ method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({coordinates:pts}) });
+        const r = await fetch("/api/petoskey-route",{ method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({coordinates:pts}) });
         if(!r.ok) return null;
         const j = await r.json();
         return j && j.ok ? j : null;
