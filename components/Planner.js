@@ -78,7 +78,7 @@ export default function Planner({
         : embedded
           ? "embedded_map"
           : "winery_map_home";
-    const today = new Date().toISOString().slice(0,10);
+    const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Detroit" }).format(new Date());
     const winePlanOptions = {
       validOrigins: Object.keys(ORIGINS),
       validIds: ALL.map((v)=>v.id),
@@ -402,7 +402,7 @@ export default function Planner({
       let returnLeg;
       if(legDur){ returnLeg = fits.length ? (pending + Math.round(legDur[order.length])) : 0; }
       else { returnLeg = fits.length ? legMin(prev, originPt()) : 0; }
-      const driveTotal = fits.reduce((s,x)=>s+x.drive,0);
+      const driveTotal = fits.reduce((s,x)=>s+x.drive,0) + returnLeg;
       const tasteTotal = fits.filter((x)=>!x.isPoi).reduce((s,x)=>s+(x.depart-x.arrive),0);
       const sightTotal = fits.filter((x)=>x.isPoi).reduce((s,x)=>s+(x.depart-x.arrive),0);
       const endTime = fits.length ? fits[fits.length-1].depart : clock;
@@ -455,16 +455,10 @@ export default function Planner({
               : { center:[45.32,-84.99], zoom:10 };
       map = L.map("map",{zoomControl:true}).setView(initialView.center, initialView.zoom);
       const osmAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
-      const cartoKey = process.env.NEXT_PUBLIC_CARTO_API_KEY || "";
-      const cartoAttribution = osmAttribution + ' &copy; <a href="https://carto.com/attributions">CARTO</a>';
-      const cartoUrl = (style) =>
-        `https://basemaps.cartocdn.com/rastertiles/${style}/{z}/{x}/{y}{r}.png` + (cartoKey ? `?api_key=${cartoKey}` : "");
-      const roads = cartoKey
-        ? L.tileLayer(cartoUrl("voyager"), { attribution: cartoAttribution, maxZoom: 20 })
-        : L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: osmAttribution, maxZoom: 19 });
-      const minimal = cartoKey
-        ? L.tileLayer(cartoUrl("light_all"), { attribution: cartoAttribution, maxZoom: 20 })
-        : L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: osmAttribution, maxZoom: 19, className: "map-tiles-minimal" });
+      // Use the existing public basemap directly. A nonempty CARTO key is not
+      // proof it is authorized: the migrated build returned watermarked tiles.
+      const roads = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: osmAttribution, maxZoom: 19 });
+      const minimal = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: osmAttribution, maxZoom: 19, className: "map-tiles-minimal" });
       roads.addTo(map);
       L.control.layers({ "Roads": roads, "Minimal": minimal }, null, { position:"topright" }).addTo(map);
       L.polyline([[45.0,-85.42],[45.0,-84.62]],{color:"#23241F",weight:1,opacity:0.28,dashArray:"2 6",interactive:false}).addTo(map);
@@ -492,7 +486,7 @@ export default function Planner({
       const hrs = extra || (v.needsHours ? "Hours vary, call ahead" : (w?`Open today, closes ${pretty(w.close)}`:"Closed today"));
       const tags = v.tags.slice(0,5).map((t)=>`<span class="ptag ${state.styles.has(t)?'match':''}">${prettyTag(t)}</span>`).join("");
       const trail = v.officialTrail ? `<span class="pop-trail">Current ${v.officialTrail.name} member</span>` : "";
-      const guide = v.category==="winery" ? `<a class="pop-guide" href="/winery/${v.id}">Full winery guide</a>` : "";
+      const guide = v.category==="winery" ? `<a class="pop-guide" href="/petoskey-wine/winery/${v.id}/">Full winery guide</a>` : "";
       return `<div class="pop"><strong>${v.name}</strong>
         <span class="pop-sub">${v.town} · ${v.beverages.map((b)=>`<span class="bev bev-${b}">${BEV_LABEL[b]}</span>`).join("")}</span>
         ${trail}
@@ -709,8 +703,8 @@ export default function Planner({
       if(nDrinks>=4 || wt>=4) return `<div class="note">A full day. ${nSights?"Good call adding a stop on foot. ":""}A food stop is built in; keep water between stops and pace the pours. Sort the driver out before you set off.</div>`;
       return `<div class="note soft">A food stop is built in. ${nSights?"Nice mix of tasting and time outside.":"Pace yourself with water between stops."}</div>`;
     }
-    function gmapsLoop(s){ const o=`${originPt().lat},${originPt().lng}`; const pts=s.fits.map((x)=>`${coords(x.id).lat},${coords(x.id).lng}`); const dest=pts[pts.length-1]; const way=pts.slice(0,-1).map(encodeURIComponent).join("|");
-      let u=`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(o)}&destination=${encodeURIComponent(dest)}&travelmode=driving`; if(way) u+=`&waypoints=${way}`; return u; }
+    function gmapsLoop(s){ const o=`${originPt().lat},${originPt().lng}`; const pts=s.fits.map((x)=>`${coords(x.id).lat},${coords(x.id).lng}`); const way=pts.map(encodeURIComponent).join("|");
+      let u=`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(o)}&destination=${encodeURIComponent(o)}&travelmode=driving`; if(way) u+=`&waypoints=${way}`; return u; }
     function copyShare(){ const s=state.scheduled; if(!s) return; const lines=[`A day from ${state.origin}, ${dayName(state.date)}, start ${pretty(toMin(state.start))}`];
       s.fits.forEach((x,i)=>{ const v=byId(x.id); lines.push(`${i+1}. ${pretty(x.arrive)} ${v.name} (${v.isPoi?POI_KIND_LABEL[v.kind]:v.town})`); });
       lines.push(`Back by about ${pretty(s.endTime+s.returnLeg)}.`);
@@ -759,11 +753,11 @@ export default function Planner({
         [...e.currentTarget.children].forEach((c)=>c.classList.toggle("chip-on",c.dataset.area===a)); refreshChoose(); };
       document.getElementById("paceChips").onclick=(e)=>{ const p=e.target.dataset.pace; if(!p) return; state.pace=p;
         [...e.currentTarget.children].forEach((c)=>c.classList.toggle("chip-on",c.dataset.pace===p)); if(state.mode==="day") buildDay(); };
-      document.getElementById("originSelect").onchange=(e)=>{ state.origin=e.target.value; refreshChoose(); };
-      document.getElementById("dateInput").onchange=(e)=>{ state.date=e.target.value||state.date; refreshChoose(); };
+      document.getElementById("originSelect").onchange=(e)=>{ state.origin=e.target.value; if(state.mode==="day") buildDay(); else refreshChoose(); };
+      document.getElementById("dateInput").onchange=(e)=>{ state.date=e.target.value||state.date; if(state.mode==="day") buildDay(); else refreshChoose(); };
       document.getElementById("timeInput").onchange=(e)=>{ state.start=e.target.value||state.start; if(state.mode==="day") buildDay(); };
       document.getElementById("doneByInput").onchange=(e)=>{ state.doneBy=e.target.value; if(state.mode==="day") buildDay(); };
-      document.getElementById("ddToggle").onchange=()=>{ if(state.mode==="day") renderDay(); };
+      document.getElementById("ddToggle").onchange=(e)=>{ state.dd=e.target.checked; if(state.mode==="day") renderDay(); };
       document.getElementById("stopsInput").onchange=(e)=>{ state.suggestN=Math.min(6,Math.max(2,parseInt(e.target.value||"3",10))); if(state.mode==="choose") renderPanel(); };
       const moreToggle=document.getElementById("moreToggle");
       if(moreToggle) moreToggle.onclick=()=>{ const c=document.getElementById("controls"); const open=c.classList.toggle("hide-adv")===false; moreToggle.setAttribute("aria-expanded", open?"true":"false"); moreToggle.textContent = open?"Fewer filters":"More filters"; };
@@ -852,11 +846,11 @@ export default function Planner({
         <div className="grp grow adv"><label>Styles (optional, pick any)</label><div id="styleCloud" className="chips style-cloud"></div></div>
         <div className="grp"><label>Add sights</label><div id="sightChips" className="chips"></div></div>
         <div className="grp"><label>Area</label><div id="areaChips" className="chips"></div></div>
-        <div className="grp"><label>Starting from</label><select id="originSelect"></select></div>
-        <div className="grp"><label>Date</label><input type="date" id="dateInput" /></div>
-        <div className="grp"><label>Start time</label><input type="time" id="timeInput" /></div>
-        <div className="grp adv"><label>Done by</label><input type="time" id="doneByInput" /></div>
-        <div className="grp small adv"><label>Suggest size</label><input type="number" id="stopsInput" min="2" max="6" defaultValue="3" /></div>
+        <div className="grp"><label htmlFor="originSelect">Starting from</label><select id="originSelect"></select></div>
+        <div className="grp"><label htmlFor="dateInput">Date</label><input type="date" id="dateInput" /></div>
+        <div className="grp"><label htmlFor="timeInput">Start time</label><input type="time" id="timeInput" /></div>
+        <div className="grp adv"><label htmlFor="doneByInput">Done by</label><input type="time" id="doneByInput" /></div>
+        <div className="grp small adv"><label htmlFor="stopsInput">Suggest size</label><input type="number" id="stopsInput" min="2" max="6" defaultValue="3" /></div>
         <div className="grp adv"><label>Pace</label><div id="paceChips" className="chips"></div></div>
         <div className="grp check adv"><label><input type="checkbox" id="ddToggle" /> I have a designated driver</label></div>
         <button type="button" id="moreToggle" className="more-toggle" aria-expanded="false">More filters</button>

@@ -60,7 +60,7 @@ export default function VenueHours({ title, areas, towns, categories, trailOnly 
             ) : (
               condenseWeek(v.hours)
             )}
-            {v.seasonal ? `. ${v.seasonal}.` : ""}
+            {v.seasonal ? `. ${v.seasonal.replace(/[.]+$/, "")}.` : ""}
             {v.dwellMinutes ? ` Plan about ${v.dwellMinutes} minutes.` : ""}
           </li>
         ))}
