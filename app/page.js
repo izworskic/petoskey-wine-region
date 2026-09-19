@@ -14,13 +14,14 @@ const GUIDES = [
   { href: "/tunnel-of-trees-wine-tour", title: "Harbor Springs and the Tunnel of Trees", blurb: "Pond Hill, the M-119 drive, and how long it actually takes" },
   { href: "/charlevoix-area-wineries", title: "Charlevoix area wineries", blurb: "Bay Shore to Ellsworth, the western half of the trail" },
   { href: "/petoskey-stone-beaches", title: "Petoskey stone beaches near the wineries", blurb: "where to hunt stones between tasting stops" },
+  { href: "/petoskey-distilleries", title: "Petoskey and Boyne City distilleries", blurb: "the four spirits stops, and which ones you can walk between" },
   { href: "/venues", title: "All tasting room hours", blurb: "the full directory with posted hours and call-ahead flags" },
 ];
 
 const FAQ = [
   {
     q: "How many wineries are in the Petoskey Wine Region?",
-    a: `The trail lists ${TRAIL.length} member wineries across Petoskey, Alanson, Bay Shore, Charlevoix, Ellsworth, Central Lake and Vanderbilt. This planner maps those ${TRAIL.length} plus ${OTHER.length} other tasting stops in the same country, for ${venues.length} in total.`,
+    a: `The trail lists ${TRAIL.length} member wineries across Petoskey, Alanson, Bay Shore, Charlevoix, Ellsworth, Central Lake and Vanderbilt. This planner maps those ${TRAIL.length} plus ${OTHER.length} other tasting rooms in the same country, including four distilleries and four breweries that are not on the wine trail, for ${venues.length} in total.`,
   },
   {
     q: "Can you do the whole Petoskey wine trail in one day?",
@@ -104,6 +105,13 @@ export default function Home() {
           bottom of M-119 where the Tunnel of Trees starts, and Crooked Vine and Seasons of the
           North are out toward the Inland Water Route. Pair one winery with the drive rather than
           trying to chain three.
+        </p>
+        <p>
+          <strong>Spirits, separately.</strong> The trail is wine, but the same country has four
+          distilleries worth knowing about: Mammoth in Bay Harbor village, Gypsy out on Charlevoix
+          Avenue in a repurposed equestrian barn, High Five on Howard Street downtown, and Muskrat
+          on the river in Boyne City. High Five and the Gaslight District stops are walkable
+          together, which makes them the right end to a day rather than another drive.
         </p>
         <p>
           <strong>Charlevoix and south.</strong> Spare Key on Upper Bay Shore Road is the hinge

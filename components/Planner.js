@@ -833,8 +833,8 @@ export default function Planner({
         {!embedded && (
           <div className="map-proof" aria-label="Map coverage">
             <strong>14 trail wineries</strong>
-            <span>19 tasting stops</span>
-            <span>24 places to stop between them</span>
+            <span>25 tasting stops</span>
+            <span>27 places to stop between them</span>
             <em>Real-road routing · posted hours · no account</em>
           </div>
         )}

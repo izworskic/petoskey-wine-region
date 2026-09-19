@@ -20,11 +20,18 @@ and forked from the Traverse City planner (izworskic/tcwine).
 - Real roads and real drive times from a routing service, with a straight line fallback that is
   labelled as estimated.
 
+## Sources
+
+Venue detail (owners, products, what each place is actually like) was cross-read from a
+58-source research table covering Northern Michigan beverage and recreation businesses. Every
+address from it was independently geocoded rather than trusted, and no hours were taken from it,
+because it does not carry any.
+
 ## Data honesty
 
 `data/venues.json` carries posted hours only where the venue actually publishes a weekly schedule.
 Anything else is `needsHours: true`, which renders as call ahead with a phone number. The planner
-treats those as unknown rather than guessing. As of the September 18 2026 build, 11 of 19 stops publish verifiable hours. Three of those are
+treats those as unknown rather than guessing. As of the September 18 2026 build, 11 of 25 stops publish verifiable hours. Three of those are
 seasonal or narrowed schedules and carry a note saying so, including Crooked Vine's fall window
 and Petoskey Farms' Sunday only listing.
 
@@ -49,6 +56,7 @@ npm run build
 
 ## Data
 
-- `data/venues.json`: 19 tasting stops (14 official trail members plus 5 other working rooms).
-- `data/pois.json`: 24 places worth stopping between them.
+- `data/venues.json`: 25 tasting stops (14 official trail members plus 11 other working rooms,
+  including four distilleries and four breweries that sit outside the wine trail).
+- `data/pois.json`: 27 places worth stopping between them.
 - `data/origins.json`: start towns.

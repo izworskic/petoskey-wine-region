@@ -19,7 +19,7 @@
    "live-music"
   ],
   "dwellMinutes": 45,
-  "note": "A third-generation family farm a mile off Walloon Lake, with seven acres of cold-hardy vines on 36 acres. The stacked-cordwood tasting building looks out over the vineyard and the rolling country behind it.",
+  "note": "A third-generation family farm a mile off Walloon Lake, with seven acres of cold-hardy vines on 36 acres. The stacked-cordwood tasting building is built from local wood and looks out over the vineyard. They work the soil organically, and the list runs cold-hardy estate wine, a sparkling peach, and hard ciders.",
   "hours": {},
   "openDays": [],
   "needsHours": true,
@@ -34,8 +34,8 @@
   "vibe": "quiet farm",
   "specialties": [
    "cold-hardy estate wines",
-   "cider",
-   "local cheese boards"
+   "sparkling peach wine",
+   "hard cider"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -62,7 +62,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 45,
-  "note": "A vineyard tasting room on Atkins Road east of town, set up for sitting outside with heaters on the patio when the air turns. Light bites and table service rather than a bar-rail pour.",
+  "note": "A 22-acre estate on Atkins Road east of town with a 60-foot hilltop observation patio and heated covered seating, so it works when the air turns. Marquette and Frontenac Blanc off the estate, wood-fired pizza and a coffee bar alongside.",
   "hours": {
    "Sunday": {
     "open": "10:00",
@@ -79,11 +79,12 @@
   "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.362741%2C-84.896073&travelmode=driving",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.362741%2C-84.896073",
   "view": "vineyard",
-  "food": "light bites",
+  "food": "wood-fired pizza and a coffee bar",
   "dogFriendly": null,
-  "vibe": "relaxed patio",
+  "vibe": "hilltop patio",
   "specialties": [
-   "estate wine",
+   "Marquette",
+   "Frontenac Blanc",
    "cider"
   ],
   "officialTrail": {
@@ -111,7 +112,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 40,
-  "note": "A working sugarbush that also makes wine, which is about as Northern Michigan as a tasting stop gets. Maple runs through the lineup alongside the fruit wines and cider.",
+  "note": "America&apos;s first maple winery, and a working sugarbush. Fermented maple wine, maple cider and syrup, free production tours, and wineshoeing excursions once there is snow on the ground. About as Northern Michigan as a tasting stop gets.",
   "hours": {},
   "openDays": [],
   "needsHours": true,
@@ -123,10 +124,10 @@
   "view": "woods",
   "food": null,
   "dogFriendly": null,
-  "vibe": "farm",
+  "vibe": "sugarbush",
   "specialties": [
-   "maple wine",
-   "fruit wine",
+   "fermented maple wine",
+   "maple cider",
    "maple syrup"
   ],
   "officialTrail": {
@@ -156,7 +157,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 50,
-  "note": "The largest and most decorated label on the trail, on 30 acres along US-131 south of town, with a small bistro and a long list that runs from dry reds and whites to the fruit wines the Stabile family is known for.",
+  "note": "The Stabile family&apos;s 30-acre estate on US-131 south of town, with a Tuscan patio and a bistro. Estate wine, hybrid reds, craft beer and hard cider, and it took more than 50 medals in its first year in Petoskey.",
   "hours": {
    "Monday": {
     "open": "11:00",
@@ -239,7 +240,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 45,
-  "note": "On US-131 between Walloon Lake and Boyne Falls, the newest name on the trail. The list leans hard into Michigan-grown cold-hardy fruit: Marquette, Frontenac, Frontenac Gris, Cayuga White.",
+  "note": "Mary Ann Mahaney&apos;s place on US-131 between Walloon Lake and Boyne Falls. Cold-climate wine, hard cider and mead, tastings up in an elevated treehouse, heated igloos once it turns, and live music most weekends.",
   "hours": {
    "Monday": {
     "open": "11:00",
@@ -286,13 +287,14 @@
   "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.283869%2C-84.943295&travelmode=driving",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.283869%2C-84.943295",
   "view": "vineyard",
-  "food": "light bites",
+  "food": "specialty snacks",
   "dogFriendly": null,
-  "vibe": "family-friendly",
+  "vibe": "treehouse and igloos",
   "specialties": [
    "Marquette",
    "Frontenac",
-   "Cayuga White"
+   "Cayuga White",
+   "mead"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -318,7 +320,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 40,
-  "note": "Forty acres just south of Petoskey, open since 2017, working with local fruit. Cider is the headline here and the wine list sits alongside it.",
+  "note": "A restored historic barn on 40 acres south of Petoskey, run by the Stabile family, with 20 taps of sparkling drinks and resident goats. Local apple hard cider is the headline, with sparkling wine alongside.",
   "hours": {},
   "openDays": [],
   "needsHours": true,
@@ -330,10 +332,10 @@
   "view": "orchard",
   "food": null,
   "dogFriendly": null,
-  "vibe": "rustic",
+  "vibe": "restored barn",
   "specialties": [
-   "hard cider",
-   "fruit wine"
+   "local apple hard cider",
+   "sparkling wine"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -364,7 +366,7 @@
    "private-tastings"
   ],
   "dwellMinutes": 60,
-  "note": "The one stop on the trail pouring all four: wine, beer, cider and spirits, on a farm with firepits, winter igloos, bocce and corn hole. Reservations are a good idea, especially for the igloos.",
+  "note": "John and Vickie Wysokinski&apos;s 195-acre shared farm campus, and the one stop on the trail pouring all four: estate wine, craft beer, grappa and cider, plus custom s&apos;mores. Firepits, bocce, and pet-friendly igloos in winter. Reservations are a good idea for the igloos.",
   "hours": {},
   "openDays": [],
   "needsHours": true,
@@ -374,14 +376,14 @@
   "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.329319%2C-85.029302&travelmode=driving",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.329319%2C-85.029302",
   "view": "farm",
-  "food": "light bites",
-  "dogFriendly": null,
-  "vibe": "social",
+  "food": "custom s'mores and light bites",
+  "dogFriendly": true,
+  "vibe": "farm campus",
   "specialties": [
-   "wine",
-   "beer",
-   "cider",
-   "distilled spirits"
+   "estate wine",
+   "craft beer",
+   "grappa",
+   "cider"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -406,7 +408,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 40,
-  "note": "A quiet stop on Lakeview Road in Alanson, at the north end of the region near the Inland Water Route. Wine and cider with light bites.",
+  "note": "A 38-acre boutique winery on Lakeview Road in Alanson, at the north end of the region near the Inland Water Route. Small-batch wine and hard cider, a panoramic view patio, and a half-mile woodland trail that turns into a snowshoe loop in winter.",
   "hours": {
    "Friday": {
     "open": "12:00",
@@ -465,7 +467,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 40,
-  "note": "Out on M-68 toward Indian River, at the eastern edge of the trail. Wine, beer and cider under one roof with light bites, and a Tuesday and Wednesday closure worth checking before you drive out.",
+  "note": "Out on M-68 toward Indian River, at the eastern edge of the trail. Cold-hardy grape wine and craft beer under one roof, a dog-friendly wine garden and live music, and a Tuesday and Wednesday closure worth checking before you drive out.",
   "hours": {
    "Monday": {
     "open": "12:00",
@@ -503,12 +505,12 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.406319%2C-84.673413",
   "view": null,
   "food": "light bites",
-  "dogFriendly": null,
-  "vibe": "casual",
+  "dogFriendly": true,
+  "vibe": "wine garden",
   "specialties": [
-   "wine",
-   "cider",
-   "beer"
+   "cold-hardy wine",
+   "craft beer",
+   "cider"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -533,7 +535,7 @@
    "bay-side"
   ],
   "dwellMinutes": 40,
-  "note": "On Upper Bay Shore Road between Petoskey and Charlevoix, which makes it the natural hinge stop if you are running the whole shoreline in one day. Closed Mondays.",
+  "note": "On Upper Bay Shore Road between Petoskey and Charlevoix, the natural hinge stop if you are running the whole shoreline in one day. Everything is estate grown and bottled, there is a covered porch, and dogs are welcome inside as well as out. Closed Mondays.",
   "hours": {
    "Tuesday": {
     "open": "13:00",
@@ -576,10 +578,10 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.349711%2C-85.117667",
   "view": "country",
   "food": "light bites",
-  "dogFriendly": null,
-  "vibe": "small-batch",
+  "dogFriendly": true,
+  "vibe": "covered porch",
   "specialties": [
-   "small-batch wine"
+   "100 percent estate grown wine"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -603,7 +605,7 @@
    "seasonal"
   ],
   "dwellMinutes": 40,
-  "note": "A farm vineyard on Boyne City Road outside Charlevoix, open in season from May through October, afternoons into the evening.",
+  "note": "A farm vineyard on Boyne City Road outside Charlevoix where the tasting room is a converted vintage Airstream. Small-batch wine and wine slushies, open in season from May through October, and reachable off the regional bike path if you would rather ride than drive.",
   "hours": {
    "Monday": {
     "open": "12:00",
@@ -652,9 +654,10 @@
   "view": "vineyard",
   "food": null,
   "dogFriendly": null,
-  "vibe": "farm",
+  "vibe": "airstream tasting room",
   "specialties": [
-   "estate wine"
+   "small-batch wine",
+   "wine slushies"
   ],
   "officialTrail": {
    "name": "Petoskey Wine Region",
@@ -682,7 +685,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 45,
-  "note": "A farm market first, with a tasting room attached, on US-31 in Ellsworth at the south end of the region. Cider, wine, bakery and the market itself, which is worth the stop on its own.",
+  "note": "A working fruit farm and market with a tasting room attached, on US-31 in Ellsworth at the south end of the region. Cider flights, wine and fresh bakery, plus a corn maze, hayrides and a greenhouse, which makes it the one stop on the trail that will hold kids for an hour.",
   "hours": {
    "Monday": {
     "open": "11:00",
@@ -760,7 +763,7 @@
    "kid-friendly"
   ],
   "dwellMinutes": 40,
-  "note": "The southern outpost of the trail, on Shooks Road in Central Lake, close enough to the Chain of Lakes to pair with a paddle day.",
+  "note": "The Shooks family farm, named for its founding year, and the southern outpost of the trail on Shooks Road in Central Lake. Wine and cider, sunflower picking, live music and glamping, close enough to the Chain of Lakes to pair with a paddle day.",
   "hours": {},
   "openDays": [],
   "needsHours": true,
@@ -772,7 +775,7 @@
   "view": null,
   "food": "light bites",
   "dogFriendly": null,
-  "vibe": "casual",
+  "vibe": "working farm",
   "specialties": [
    "wine",
    "cider"
@@ -874,7 +877,7 @@
    "tunnel-of-trees"
   ],
   "dwellMinutes": 75,
-  "note": "A working farm on M-119 just up from Harbor Springs, at the start of the Tunnel of Trees, with a winery, a brewery, a cafe and enough for kids to do that it works as the long stop of the day.",
+  "note": "A working farm on M-119 just up from Harbor Springs at the start of the Tunnel of Trees, with a winery, a brewery and a farm-to-table cafe. A trout pond, squash rockets and a Yappy Hour for dogs mean it holds a family longer than any other stop in the region.",
   "hours": {
    "Wednesday": {
     "open": "12:00",
@@ -976,7 +979,7 @@
    "taproom"
   ],
   "dwellMinutes": 45,
-  "note": "Downtown Petoskey, walking distance from the Gaslight District and Bayfront Park, which makes it the easy last stop if you end the day in town.",
+  "note": "Ben Slocum and Peter Manthei have been at this since 2012, downtown and walking distance from the Gaslight District. More than 100 recipes through the taps, pizza, burritos and tacos, and a dog-friendly patio looking out over Little Traverse Bay.",
   "hours": {},
   "openDays": [],
   "needsHours": true,
@@ -986,11 +989,11 @@
   "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.375201%2C-84.957812&travelmode=driving",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.375201%2C-84.957812",
   "view": null,
-  "food": "food",
-  "dogFriendly": null,
+  "food": "pizza, burritos and tacos",
+  "dogFriendly": true,
   "vibe": "taproom",
   "specialties": [
-   "beer"
+   "craft beer"
   ],
   "officialTrail": null
  },
@@ -1063,6 +1066,227 @@
   "vibe": "taphouse",
   "specialties": [
    "beer"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "mammoth-distilling",
+  "name": "Mammoth Distilling, Bay Harbor",
+  "area": "charlevoix",
+  "town": "Bay Harbor",
+  "lat": 45.36733,
+  "lng": -85.01961,
+  "category": "distillery",
+  "beverages": [
+   "spirits"
+  ],
+  "tags": [
+   "village",
+   "patio",
+   "cocktails",
+   "tasting-experience"
+  ],
+  "dwellMinutes": 50,
+  "note": "Chad Munger&apos;s Bay Harbor room, in the village between Petoskey and Charlevoix. Rosen Rye whiskey is the one they are known for, alongside bourbon, gin, a strawberry rhubarb vodka and cherry liqueur. Heated patio, whiskey blending sessions, trivia nights.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "4181 Main Street, Bay Harbor, MI 49770",
+  "website": "https://mammothdistilling.com/",
+  "phone": "(231) 439-2196",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.36733%2C-85.01961&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.36733%2C-85.01961",
+  "view": "village",
+  "food": "cocktails",
+  "dogFriendly": null,
+  "vibe": "upscale",
+  "specialties": [
+   "Rosen Rye whiskey",
+   "bourbon",
+   "gin"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "gypsy-distillery",
+  "name": "Gypsy Distillery",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.35855,
+  "lng": -85.04634,
+  "category": "distillery",
+  "beverages": [
+   "spirits"
+  ],
+  "tags": [
+   "large-venue",
+   "live-music",
+   "games"
+  ],
+  "dwellMinutes": 50,
+  "note": "The Kazanowski brothers put this one in a 42,000 square foot repurposed equestrian facility on Charlevoix Avenue, indoor arena and all, with games and live music. Gypsy Vodka, Petoskey Stone Gin and Mackinac Island Rum.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "5251 Charlevoix Avenue, Petoskey, MI 49770",
+  "website": "https://gypsyvodka.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.35855%2C-85.04634&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.35855%2C-85.04634",
+  "view": null,
+  "food": "cocktails",
+  "dogFriendly": null,
+  "vibe": "big room",
+  "specialties": [
+   "Petoskey Stone Gin",
+   "Gypsy Vodka",
+   "Mackinac Island Rum"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "high-five-spirits",
+  "name": "High Five Spirits",
+  "area": "petoskey",
+  "town": "Petoskey",
+  "lat": 45.37474,
+  "lng": -84.95572,
+  "category": "distillery",
+  "beverages": [
+   "spirits"
+  ],
+  "tags": [
+   "downtown",
+   "walkable",
+   "cocktail-lounge"
+  ],
+  "dwellMinutes": 45,
+  "note": "The Kazanowski twins&apos; downtown cocktail lounge on Howard Street, a few doors from the rest of the Gaslight District stops. Award-winning gin, vodka, rum and whiskey, a seasonal cocktail list, and dogs allowed inside.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "312 Howard Street, Petoskey, MI 49770",
+  "website": "https://highfivespirits.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.37474%2C-84.95572&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.37474%2C-84.95572",
+  "view": null,
+  "food": "cocktails",
+  "dogFriendly": true,
+  "vibe": "cocktail lounge",
+  "specialties": [
+   "gin",
+   "vodka",
+   "rum",
+   "whiskey"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "muskrat-distilling",
+  "name": "Muskrat Distilling",
+  "area": "boyne-walloon",
+  "town": "Boyne City",
+  "lat": 45.21363,
+  "lng": -85.01322,
+  "category": "distillery",
+  "beverages": [
+   "spirits"
+  ],
+  "tags": [
+   "riverfront",
+   "downtown",
+   "patio"
+  ],
+  "dwellMinutes": 45,
+  "note": "A restored 1890s building on Water Street in Boyne City with a riverfront cocktail lounge and a seasonal patio. Small-batch house gin, bourbon and rum, mocktails for whoever is driving, and bar food.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "121 Water Street, Boyne City, MI 49712",
+  "website": "https://muskratdistilling.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.21363%2C-85.01322&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.21363%2C-85.01322",
+  "view": "river",
+  "food": "Muskrat Munchies",
+  "dogFriendly": null,
+  "vibe": "riverfront lounge",
+  "specialties": [
+   "house gin",
+   "bourbon",
+   "rum"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "stiggs",
+  "name": "Stiggs Brewery & Kitchen",
+  "area": "boyne-walloon",
+  "town": "Boyne City",
+  "lat": 45.222352,
+  "lng": -85.01293,
+  "category": "brewery",
+  "beverages": [
+   "beer"
+  ],
+  "tags": [
+   "downtown",
+   "bbq",
+   "live-music",
+   "historic-building"
+  ],
+  "dwellMinutes": 55,
+  "note": "Mike Castiglione&apos;s brewery in the 1899 railroad office in Boyne City, 30-odd taps leaning German, house-smoked barbecue out of the kitchen, a dog-friendly patio and live music. The map pin is placed off Park Street at block level rather than a verified rooftop.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "112 S Park Street, Boyne City, MI 49712",
+  "website": "https://www.stiggsbrewingcompany.com/",
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.222352%2C-85.01293&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.222352%2C-85.01293",
+  "view": null,
+  "food": "house-smoked barbecue",
+  "dogFriendly": true,
+  "vibe": "historic brewpub",
+  "specialties": [
+   "German-style beer"
+  ],
+  "officialTrail": null
+ },
+ {
+  "id": "boyne-city-taproom",
+  "name": "Boyne City Taproom",
+  "area": "boyne-walloon",
+  "town": "Boyne City",
+  "lat": 45.2096,
+  "lng": -85.01506,
+  "category": "brewery",
+  "beverages": [
+   "beer"
+  ],
+  "tags": [
+   "downtown",
+   "forty-taps",
+   "food"
+  ],
+  "dwellMinutes": 50,
+  "note": "Forty taps and an American bistro menu on South Lake Street, in the old Northern Table space. Trivia nights and an Octoberfest party, and it sits inside the Boyne City social district.",
+  "hours": {},
+  "openDays": [],
+  "needsHours": true,
+  "address": "222 S Lake Street, Boyne City, MI 49712",
+  "website": null,
+  "phone": null,
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=45.2096%2C-85.01506&travelmode=driving",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=45.2096%2C-85.01506",
+  "view": null,
+  "food": "bistro menu",
+  "dogFriendly": null,
+  "vibe": "taproom",
+  "specialties": [
+   "craft beer on 40 taps"
   ],
   "officialTrail": null
  },

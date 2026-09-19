@@ -11,6 +11,7 @@ export default function sitemap() {
     "/tunnel-of-trees-wine-tour",
     "/charlevoix-area-wineries",
     "/petoskey-stone-beaches",
+    "/petoskey-distilleries",
     "/venues",
   ].map((p) => ({
     url: BASE + p,
