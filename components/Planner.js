@@ -453,7 +453,7 @@ export default function Planner({
             : state.area === "charlevoix"
               ? { center:[45.26,-85.26], zoom:10 }
               : { center:[45.32,-84.99], zoom:10 };
-      map = L.map("map",{zoomControl:true}).setView(initialView.center, initialView.zoom);
+      map = L.map("map",{zoomControl:true,scrollWheelZoom:false}).setView(initialView.center, initialView.zoom);
       const osmAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>';
       // Use the existing public basemap directly. A nonempty CARTO key is not
       // proof it is authorized: the migrated build returned watermarked tiles.

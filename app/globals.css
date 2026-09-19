@@ -4,11 +4,11 @@
   --wine:#7B3B4A; --cider:#B5762A; --beer:#8C7A2E; --spirits:#5C6770; --mead:#9A6A1F;
 }
 *{box-sizing:border-box}
-html,body{height:100%}
+html{min-height:100%}
 body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Hanken Grotesk",system-ui,sans-serif; font-size:15px; line-height:1.5;
-  display:flex; flex-direction:column; height:100vh; overflow:hidden;
+  display:block; min-height:100vh; height:auto; overflow:visible;
 }
 h1,h2,.stop-num,.sum-big{font-family:"Fraunces",Georgia,serif}
 
@@ -45,7 +45,7 @@ select,input[type=date],input[type=time],input[type=number]{
 }
 #buildBtn:hover{background:#264852}
 
-#main{flex:1; display:flex; min-height:0}
+#main{flex:none; display:flex; height:clamp(420px,65vh,760px); min-height:0}
 #map{flex:1.45; min-width:0; background:var(--paper-2)}
 #plan{
   width:430px; max-width:46%; overflow-y:auto; padding:20px 22px 60px;
@@ -121,9 +121,9 @@ select,input[type=date],input[type=time],input[type=number]{
 
 @media (max-width:860px){
   body{overflow:auto; height:auto}
-  #main{flex-direction:column}
-  #map{height:48vh; min-height:320px}
-  #plan{width:100%; max-width:none; border-left:none; border-top:1px solid var(--line)}
+  #main{flex-direction:column;height:auto}
+  #map{flex:none;height:48vh; min-height:320px}
+  #plan{width:100%; max-width:none; overflow:visible; border-left:none; border-top:1px solid var(--line)}
   #buildBtn{margin-left:0}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
@@ -242,7 +242,7 @@ select,input[type=date],input[type=time],input[type=number]{
 
 /* ---- content pages (restored guides) ---- */
 body:has(main.tc-page){display:block;height:auto;overflow:auto}
-.planner-shell{height:100vh;display:flex;flex-direction:column}
+.planner-shell{height:auto;display:flex;flex-direction:column}
 main.tc-page{max-width:880px;margin:0 auto;padding:28px 20px 90px;line-height:1.65;font-size:1.02rem}
 main.tc-page h1{font-size:1.7rem;margin:6px 0 14px}
 main.tc-page h2{font-size:1.28rem;margin:30px 0 10px}
@@ -263,7 +263,7 @@ main.tc-page .morelinks{margin-top:40px;padding-top:14px;border-top:1px solid #d
 .map-proof span{padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:#fff}
 .map-proof em{font-style:normal;color:var(--bay);font-weight:600}
 .planner-shell-embedded{
-  height:min(760px,82vh);min-height:560px;margin:18px 0 30px;border:1px solid var(--line);
+  height:auto;min-height:0;margin:18px 0 30px;border:1px solid var(--line);
   border-radius:14px;overflow:hidden;background:var(--paper);box-shadow:0 12px 34px rgba(35,36,31,.08)
 }
 .planner-shell-embedded .planner-head{padding:16px 18px 10px}
@@ -1565,13 +1565,8 @@ main.tc-page .morelinks{margin-top:40px;padding-top:14px;border-top:1px solid #d
 }
 
 
-/* ---------- landscape tablet planner breathing room ---------- */
-@media (orientation: landscape) and (min-width: 861px) and (max-width: 1366px) and (max-height: 900px){
-  .planner-shell:not(.planner-shell-embedded){
-    height:112vh;
-    min-height:720px;
-  }
-}
+/* The document owns vertical scrolling, including landscape tablets. The map
+   keeps its own bounded height without trapping the surrounding page. */
 
 /* ---------- Grape-specific wine discovery ---------- */
 .wine-grape-links{
