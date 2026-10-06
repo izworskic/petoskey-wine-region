@@ -182,7 +182,8 @@ export default function Home() {
         <p className="small">
           Built by <a href="https://chrisizworski.com/chris-izworski/">Chris Izworski</a>. Trail membership is
           tracked against the official <a href="https://petoskey.wine/">Petoskey Wine Region</a>{" "}
-          list. Plan a driver before you set out.
+          list. Plan a driver before you set out. More Northern Michigan planning
+          tools are at <a href="https://chrisizworski.com/tools/">the Tools hub</a>.
         </p>
       </article>
     </main>
