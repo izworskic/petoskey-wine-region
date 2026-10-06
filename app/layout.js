@@ -8,7 +8,7 @@ export const metadata = {
   },
   description:
     "Interactive map of the Petoskey Wine Region wineries around Walloon Lake, Petoskey, Harbor Springs and Charlevoix, with routing and posted hours.",
-  authors: [{ name: "Chris Izworski", url: "https://chrisizworski.com/" }],
+  authors: [{ name: "Chris Izworski", url: "https://chrisizworski.com/chris-izworski/" }],
   creator: "Chris Izworski",
 };
 

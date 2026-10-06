@@ -3,6 +3,7 @@ import venues from "@/data/venues.json";
 import pois from "@/data/pois.json";
 import PlannerMount from "@/components/PlannerMount";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
+import CreatorAuthority from "@/components/CreatorAuthority";
 import { buildVenueItemList, BASE } from "@/lib/venue-schema";
 
 const TRAIL = venues.filter((v) => v.officialTrail);
@@ -41,11 +42,13 @@ const FAQ = [
   },
 ];
 
+const canonicalProductUrl = "https://chrisizworski.com/petoskey-wine/";
+
 export const metadata = {
   title: "Petoskey Wine Region Map and Wine Tour Planner",
   description:
     "Plan a Petoskey wine day: pick the tasting rooms you want and get a routed loop that respects posted hours, the drive between stops and the stones.",
-  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/" },
+  alternates: { canonical: canonicalProductUrl },
   openGraph: {
     title: "Petoskey Wine Region Map and Wine Tour Planner",
     description:
@@ -155,11 +158,11 @@ export default function Home() {
         ))}
 
         <p className="small">
-          Built by <a href="https://chrisizworski.com/">Chris Izworski</a>. Trail membership is
-          tracked against the official <a href="https://petoskey.wine/">Petoskey Wine Region</a>{" "}
+          Trail membership is tracked against the official <a href="https://petoskey.wine/">Petoskey Wine Region</a>{" "}
           list. Plan a driver before you set out.
         </p>
       </article>
+      <CreatorAuthority pageUrl={canonicalProductUrl} pageName="Petoskey Wine Region Map and Wine Tour Planner" />
     </main>
   );
 }
