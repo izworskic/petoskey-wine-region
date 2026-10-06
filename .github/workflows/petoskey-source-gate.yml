@@ -3,7 +3,8 @@ name: Petoskey Wine source gate
 on:
   push:
     branches:
-      - "**"
+      - main
+      - "agent/**"
   pull_request:
     branches:
       - main
