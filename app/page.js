@@ -41,11 +41,35 @@ const FAQ = [
   },
 ];
 
+const canonicalPerson = {
+  "@type": "Person",
+  "@id": "https://chrisizworski.com/#person",
+  name: "Chris Izworski",
+  url: "https://chrisizworski.com/",
+};
+
+const canonicalProductUrl = "https://chrisizworski.com/petoskey-wine/";
+const creatorAuthority = {
+  "@context": "https://schema.org",
+  "@graph": [
+    canonicalPerson,
+    {
+      "@type": "WebPage",
+      "@id": `${canonicalProductUrl}#webpage`,
+      url: canonicalProductUrl,
+      name: "Petoskey Wine Region Map and Wine Tour Planner",
+      author: { "@id": canonicalPerson["@id"] },
+      publisher: { "@id": canonicalPerson["@id"] },
+    },
+  ],
+};
+
+
 export const metadata = {
   title: "Petoskey Wine Region Map and Wine Tour Planner",
   description:
     "Plan a Petoskey wine day: pick the tasting rooms you want and get a routed loop that respects posted hours, the drive between stops and the stones.",
-  alternates: { canonical: "https://chrisizworski.com/petoskey-wine/" },
+  alternates: { canonical: canonicalProductUrl },
   openGraph: {
     title: "Petoskey Wine Region Map and Wine Tour Planner",
     description:
@@ -72,6 +96,7 @@ export default function Home() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(creatorAuthority) }} />
 
       <PlannerMount />
 
@@ -155,7 +180,7 @@ export default function Home() {
         ))}
 
         <p className="small">
-          Built by <a href="https://chrisizworski.com/">Chris Izworski</a>. Trail membership is
+          Built by <a href="https://chrisizworski.com/chris-izworski/">Chris Izworski</a>. Trail membership is
           tracked against the official <a href="https://petoskey.wine/">Petoskey Wine Region</a>{" "}
           list. Plan a driver before you set out.
         </p>
