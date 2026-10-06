@@ -1,3 +1,4 @@
+import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
@@ -61,6 +62,7 @@ export default function Page() {
           <Link href="/">Back to the full map and planner</Link>
         </p>
       </article>
+      <CreatorAuthority pageUrl="https://chrisizworski.com/petoskey-wine/petoskey-distilleries/" pageName="Petoskey and Boyne City distilleries" />
     </main>
   );
 }

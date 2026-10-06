@@ -1,3 +1,4 @@
+import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
@@ -24,6 +25,7 @@ export default function Page() {
         <p className="small">Hours checked {HOURS_VERIFIED}. Call ahead where a stop does not publish a weekly schedule.</p>
         <p><Link href="/">Back to the full map and planner</Link></p>
       </article>
+      <CreatorAuthority pageUrl="https://chrisizworski.com/petoskey-wine/walloon-lake-wineries/" pageName="Walloon Lake and Boyne area wineries" />
     </main>
   );
 }

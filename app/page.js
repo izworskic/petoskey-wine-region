@@ -3,6 +3,7 @@ import venues from "@/data/venues.json";
 import pois from "@/data/pois.json";
 import PlannerMount from "@/components/PlannerMount";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
+import CreatorAuthority from "@/components/CreatorAuthority";
 import { buildVenueItemList, BASE } from "@/lib/venue-schema";
 
 const TRAIL = venues.filter((v) => v.officialTrail);
@@ -41,29 +42,7 @@ const FAQ = [
   },
 ];
 
-const canonicalPerson = {
-  "@type": "Person",
-  "@id": "https://chrisizworski.com/#person",
-  name: "Chris Izworski",
-  url: "https://chrisizworski.com/",
-};
-
 const canonicalProductUrl = "https://chrisizworski.com/petoskey-wine/";
-const creatorAuthority = {
-  "@context": "https://schema.org",
-  "@graph": [
-    canonicalPerson,
-    {
-      "@type": "WebPage",
-      "@id": `${canonicalProductUrl}#webpage`,
-      url: canonicalProductUrl,
-      name: "Petoskey Wine Region Map and Wine Tour Planner",
-      author: { "@id": canonicalPerson["@id"] },
-      publisher: { "@id": canonicalPerson["@id"] },
-    },
-  ],
-};
-
 
 export const metadata = {
   title: "Petoskey Wine Region Map and Wine Tour Planner",
@@ -96,7 +75,6 @@ export default function Home() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(creatorAuthority) }} />
 
       <PlannerMount />
 
@@ -180,12 +158,11 @@ export default function Home() {
         ))}
 
         <p className="small">
-          Built by <a href="https://chrisizworski.com/chris-izworski/">Chris Izworski</a>. Trail membership is
-          tracked against the official <a href="https://petoskey.wine/">Petoskey Wine Region</a>{" "}
-          list. Plan a driver before you set out. More Northern Michigan planning
-          tools are at <a href="https://chrisizworski.com/tools/">the Tools hub</a>.
+          Trail membership is tracked against the official <a href="https://petoskey.wine/">Petoskey Wine Region</a>{" "}
+          list. Plan a driver before you set out.
         </p>
       </article>
+      <CreatorAuthority pageUrl={canonicalProductUrl} pageName="Petoskey Wine Region Map and Wine Tour Planner" />
     </main>
   );
 }

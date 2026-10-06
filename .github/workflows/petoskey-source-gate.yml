@@ -31,6 +31,8 @@ jobs:
         run: npm run check
       - name: Build the hub static export
         run: npm run export:hub
+      - name: Verify creator coverage in the export
+        run: npm run check:creator-export
       - name: Upload exact hub export
         uses: actions/upload-artifact@v4
         with:

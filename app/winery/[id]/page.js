@@ -4,6 +4,7 @@ import pois from "@/data/pois.json";
 import { condenseWeek, HOURS_VERIFIED } from "@/components/VenueHours";
 import { venueSchema, BASE } from "@/lib/venue-schema";
 import { haversineMiles } from "@/lib/geo";
+import CreatorAuthority from "@/components/CreatorAuthority";
 
 export function generateStaticParams() {
   return venues.map((v) => ({ id: v.id }));
@@ -13,14 +14,16 @@ function find(id) {
   return venues.find((v) => v.id === id);
 }
 
+function pageTitle(v) {
+  const withTown = `${v.name}, ${v.town}`;
+  return withTown.length <= 60 ? withTown : v.name.length <= 60 ? v.name : v.name.slice(0, 59).trim();
+}
+
 export function generateMetadata({ params }) {
   const v = find(params.id);
   if (!v) return {};
-  // The hub caps SERP titles at 60 characters and descriptions at 158, so these
-  // are absolute rather than run through the layout title template, and they
-  // step down to the bare name when a venue is long enough to blow the cap.
-  const withTown = `${v.name}, ${v.town}`;
-  const title = withTown.length <= 60 ? withTown : v.name.length <= 60 ? v.name : v.name.slice(0, 59).trim();
+  // The hub caps SERP titles at 60 characters and descriptions at 158.
+  const title = pageTitle(v);
   const description = `${v.name} in ${v.town}: posted hours, what it pours, and the nearest stops to pair it with.`;
   return {
     title: { absolute: title },
@@ -47,6 +50,7 @@ export default function WineryPage({ params }) {
     .map((x) => ({ x, d: haversineMiles(v, x) }))
     .sort((a, b) => a.d - b.d)
     .slice(0, 4);
+  const title = pageTitle(v);
   const sights = pois
     .map((p) => ({ p, d: haversineMiles(v, p) }))
     .sort((a, b) => a.d - b.d)
@@ -117,6 +121,10 @@ export default function WineryPage({ params }) {
       <p>
         <a href={v.directionsUrl} rel="nofollow noopener">Directions</a>
       </p>
+      <CreatorAuthority
+        pageUrl={`https://chrisizworski.com/petoskey-wine/winery/${v.id}/`}
+        pageName={title}
+      />
     </main>
   );
 }

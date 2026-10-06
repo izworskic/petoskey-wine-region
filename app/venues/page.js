@@ -1,3 +1,4 @@
+import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import venues from "@/data/venues.json";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
@@ -40,6 +41,7 @@ export default function VenuesPage() {
           </li>
         ))}
       </ul>
+      <CreatorAuthority pageUrl="https://chrisizworski.com/petoskey-wine/venues/" pageName="Petoskey area winery and tasting room hours" />
     </main>
   );
 }
