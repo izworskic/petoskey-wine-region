@@ -118,5 +118,42 @@
       ]
     },
     "source": "owner-validated-regional-presets"
+  },
+  "operatingByWeekday": {
+    "Sunday": {
+      "knownOpen": 10,
+      "knownClosed": 0,
+      "unknown": 5
+    },
+    "Monday": {
+      "knownOpen": 6,
+      "knownClosed": 4,
+      "unknown": 5
+    },
+    "Tuesday": {
+      "knownOpen": 5,
+      "knownClosed": 5,
+      "unknown": 5
+    },
+    "Wednesday": {
+      "knownOpen": 7,
+      "knownClosed": 3,
+      "unknown": 5
+    },
+    "Thursday": {
+      "knownOpen": 8,
+      "knownClosed": 2,
+      "unknown": 5
+    },
+    "Friday": {
+      "knownOpen": 9,
+      "knownClosed": 1,
+      "unknown": 5
+    },
+    "Saturday": {
+      "knownOpen": 9,
+      "knownClosed": 1,
+      "unknown": 5
+    }
   }
 }
