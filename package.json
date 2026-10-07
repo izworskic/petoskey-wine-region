@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/build-region-contract.mjs && next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node scripts/check-data.mjs",
+    "test": "node scripts/check-data.mjs && node scripts/check-region-contract.mjs",
     "check": "npm run test && npm run build",
     "export:hub": "next build",
     "check:creator-export": "node scripts/check-creator-export.mjs"
