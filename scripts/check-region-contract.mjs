@@ -12,6 +12,7 @@ assert.equal(contract.inventory.wineryCount, wineries.length);
 assert.equal(contract.truthRules.unknownIsFalse, false);
 assert.equal(contract.inventory.knownHoursCount + contract.inventory.unknownHoursCount, wineries.length);
 assert.equal(contract.inventory.officialTrailMemberCount, wineries.filter((venue) => venue.officialTrail).length);
+assert.ok(contract.operatingByWeekday.Saturday.knownOpen + contract.operatingByWeekday.Saturday.unknown >= 2);
 for (const [intent, selected] of Object.entries(contract.handoff.presets)) {
   assert.equal(selected.length, 3, intent + " starter must contain three wineries");
 }
