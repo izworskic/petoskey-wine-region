@@ -74,6 +74,22 @@ for (const [intent, selected] of Object.entries(handoffPresets)) {
   }
 }
 
+const operatingByWeekday = Object.fromEntries(
+  ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"].map((day) => {
+    let knownOpen = 0;
+    let knownClosed = 0;
+    let unknown = 0;
+    for (const venue of wineries) {
+      if (venue.needsHours) { unknown += 1; continue; }
+      const hours = venue.hours?.[day];
+      if (!hours) { knownClosed += 1; continue; }
+      if (hours.closed) knownClosed += 1;
+      else knownOpen += 1;
+    }
+    return [day, { knownOpen, knownClosed, unknown }];
+  })
+);
+
 const verifiedDates = trail.map((venue) => venue.officialTrail?.verifiedAt).filter(Boolean).sort();
 const contract = {
   schemaVersion: 1,
@@ -107,6 +123,7 @@ const contract = {
     viewSignalCount: wineries.filter((venue) => Boolean(venue.view)).length
   },
   intentEvidence,
+  operatingByWeekday,
   localDrive: {
     medianNearestNeighborMiles: Number(median(nearest).toFixed(1)),
     spreadMiles: Number(spread.toFixed(1))
