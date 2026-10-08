@@ -1,14 +1,15 @@
+import { withSocialMetadata } from "@/lib/page-metadata";
 import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
-export const metadata = {
+export const metadata = withSocialMetadata({
   title: "Petoskey and Boyne City distilleries",
   description:
     "The four distilleries around Petoskey, Bay Harbor and Boyne City: Mammoth, Gypsy, High Five and Muskrat, where each sits, and which you can walk between.",
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-distilleries/" },
-};
+});
 
 export default function Page() {
   return (

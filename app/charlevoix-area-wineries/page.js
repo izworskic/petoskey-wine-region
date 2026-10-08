@@ -1,13 +1,14 @@
+import { withSocialMetadata } from "@/lib/page-metadata";
 import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
-export const metadata = {
+export const metadata = withSocialMetadata({
   title: 'Charlevoix area wineries',
   description: 'Spare Key, Blu Dot, 1918 Cellars, Royal Farms and Cellar 1914: the western and southern half of the Petoskey Wine Region, and how to string them together.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/charlevoix-area-wineries/" },
-};
+});
 
 export default function Page() {
   return (

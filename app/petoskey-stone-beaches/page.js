@@ -1,13 +1,14 @@
+import { withSocialMetadata } from "@/lib/page-metadata";
 import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
-export const metadata = {
+export const metadata = withSocialMetadata({
   title: 'Petoskey stone beaches near the wineries',
   description: 'Where to hunt Petoskey stones between tasting stops, which beaches actually produce, and how to work one into a wine day.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-stone-beaches/" },
-};
+});
 
 export default function Page() {
   return (
