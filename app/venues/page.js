@@ -1,15 +1,16 @@
+import { withSocialMetadata } from "@/lib/page-metadata";
 import CreatorAuthority from "@/components/CreatorAuthority";
 import Link from "next/link";
 import venues from "@/data/venues.json";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import { buildVenueItemList } from "@/lib/venue-schema";
 
-export const metadata = {
+export const metadata = withSocialMetadata({
   title: "Petoskey area winery and tasting room hours",
   description:
     "Posted hours for every winery, cidery, brewery and distillery in the Petoskey Wine Region, with call ahead flags where a stop posts no weekly schedule.",
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/venues/" },
-};
+});
 
 export default function VenuesPage() {
   const verified = venues.filter((v) => !v.needsHours).length;
