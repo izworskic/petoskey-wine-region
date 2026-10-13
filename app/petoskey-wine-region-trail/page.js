@@ -6,7 +6,7 @@ import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
 export const metadata = withSocialMetadata({
-  title: 'The 14 wineries of the Petoskey Wine Region',
+  title: 'Petoskey Wine Trail: 14 Wineries, Map, Hours & Routes',
   description: 'Every current member of the Petoskey Wine Region trail, where each one sits, what it pours, and how to group them into a day that actually works.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-wine-region-trail/" },
 });
@@ -20,6 +20,11 @@ export default function Page() {
           <Link href="/">Petoskey Wine Region planner</Link> / The 14 wineries of the Petoskey Wine Region
         </p>
         <h1>The 14 wineries of the Petoskey Wine Region</h1>
+        <section className="petoskey-search-answer" aria-label="Petoskey winery trail quick answer">
+          <h2>Can you visit all 14 Petoskey wine trail wineries in a day?</h2>
+          <p>No—not while leaving reasonable time for tastings. The trail runs from Vanderbilt through Petoskey and Alanson to wineries near Charlevoix and Central Lake. Two or three stops in a shared area can make a relaxed day; fourteen widely separated stops cannot.</p>
+          <p>Choose <Link href="/walloon-lake-wineries">the Walloon Lake area</Link> for a tight winery cluster, <Link href="/charlevoix-area-wineries">Charlevoix</Link> for the western corridor, or <Link href="/tunnel-of-trees-wine-tour">Harbor Springs</Link> for a scenic-drive day with fewer tastings. The day planner checks posted hours for your date; unpublished schedules mean call ahead.</p>
+        </section>
         <p>The Petoskey Wine Region is the trail formerly known as the Bay View Wine Trail, rebranded in 2019. It now lists 14 member wineries, all family owned, spread across Emmet, Charlevoix, Antrim and Otsego counties inside the Tip of the Mitt appellation.</p>
         <p>The important thing to understand before you plan anything: this is not a compact trail. Vanderbilt Vines sits well east of Gaylord, Cellar 1914 is down in Central Lake, and Crooked Vine is north toward Alanson. End to end that is more than ninety minutes of driving before you have tasted anything. The members cluster into three usable groups, and a good day picks one group.</p>
         <p>The Petoskey and Walloon Lake cluster carries seven of the fourteen and is where most first trips should go. The Charlevoix and south group carries four more along the shoreline and the Chain of Lakes. Crooked Vine and Seasons of the North sit together in the north, and Vanderbilt Vines is its own trip.</p>
