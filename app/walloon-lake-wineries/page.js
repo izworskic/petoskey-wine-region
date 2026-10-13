@@ -6,7 +6,7 @@ import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
 export const metadata = withSocialMetadata({
-  title: 'Walloon Lake Wineries: Petoskey Wine Loop & Hours',
+  title: 'Walloon Lake Wineries: Wine Loop & Hours',
   description: 'The wineries closest to Walloon Lake and Boyne City, the shortest real loop in the Petoskey Wine Region, and what to do with the rest of the day.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/walloon-lake-wineries/" },
 });

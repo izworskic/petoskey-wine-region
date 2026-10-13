@@ -6,7 +6,7 @@ import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
 export const metadata = withSocialMetadata({
-  title: 'Charlevoix Wineries: Bay Shore to Central Lake Map',
+  title: 'Charlevoix Wineries: Wine Trail Map',
   description: 'Spare Key, Blu Dot, 1918 Cellars, Royal Farms and Cellar 1914: the western and southern half of the Petoskey Wine Region, and how to string them together.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/charlevoix-area-wineries/" },
 });
