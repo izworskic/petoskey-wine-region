@@ -22,7 +22,7 @@ export default function Page() {
         <h1>The 14 wineries of the Petoskey Wine Region</h1>
         <section className="petoskey-search-answer" aria-label="Petoskey winery trail quick answer">
           <h2>Can you visit all 14 Petoskey wine trail wineries in a day?</h2>
-          <p>No—not while leaving reasonable time for tastings. The trail runs from Vanderbilt through Petoskey and Alanson to wineries near Charlevoix and Central Lake. Two or three stops in a shared area can make a relaxed day; fourteen widely separated stops cannot.</p>
+          <p>No, not while leaving reasonable time for tastings. The trail runs from Vanderbilt through Petoskey and Alanson to wineries near Charlevoix and Central Lake. Two or three stops in a shared area can make a relaxed day; fourteen widely separated stops cannot.</p>
           <p>Choose <Link href="/walloon-lake-wineries">the Walloon Lake area</Link> for a tight winery cluster, <Link href="/charlevoix-area-wineries">Charlevoix</Link> for the western corridor, or <Link href="/tunnel-of-trees-wine-tour">Harbor Springs</Link> for a scenic-drive day with fewer tastings. The day planner checks posted hours for your date; unpublished schedules mean call ahead.</p>
         </section>
         <p>The Petoskey Wine Region is the trail formerly known as the Bay View Wine Trail, rebranded in 2019. It now lists 14 member wineries, all family owned, spread across Emmet, Charlevoix, Antrim and Otsego counties inside the Tip of the Mitt appellation.</p>
