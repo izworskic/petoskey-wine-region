@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node scripts/check-data.mjs",
+    "test": "node scripts/check-data.mjs && npm run test:v5",
     "check": "npm run test && npm run build",
     "export:hub": "next build",
-    "check:creator-export": "node scripts/check-creator-export.mjs"
+    "check:creator-export": "node scripts/check-creator-export.mjs",
+    "test:v5": "node scripts/check-wine-v5.mjs"
   },
   "dependencies": {
     "leaflet": "1.9.4",
