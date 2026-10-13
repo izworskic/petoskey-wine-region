@@ -5,6 +5,7 @@ import PlannerMount from "@/components/PlannerMount";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import CreatorAuthority from "@/components/CreatorAuthority";
 import WineRegionDecision from "@/components/WineRegionDecision";
+import PetoskeyDayLens from "@/components/PetoskeyDayLens";
 import { buildVenueItemList, BASE } from "@/lib/venue-schema";
 
 const TRAIL = venues.filter((v) => v.officialTrail);
@@ -98,6 +99,7 @@ export default function Home() {
         </p>
 
         <WineRegionDecision />
+        <PetoskeyDayLens />
         <h2>The clusters, and how to think about them</h2>
         <p>
           <strong>Petoskey and Walloon Lake.</strong> The densest group. Walloon Lake Winery,
