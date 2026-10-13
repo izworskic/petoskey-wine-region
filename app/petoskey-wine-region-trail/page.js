@@ -6,7 +6,7 @@ import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
 export const metadata = withSocialMetadata({
-  title: 'Petoskey Wine Trail: 14 Wineries, Map, Hours & Routes',
+  title: 'Petoskey Wine Trail: 14 Wineries & Map',
   description: 'Every current member of the Petoskey Wine Region trail, where each one sits, what it pours, and how to group them into a day that actually works.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/petoskey-wine-region-trail/" },
 });

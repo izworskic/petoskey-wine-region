@@ -6,7 +6,7 @@ import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
 
 export const metadata = withSocialMetadata({
-  title: 'Tunnel of Trees Wine Tour: Pond Hill & M-119 Stops',
+  title: 'Tunnel of Trees: Pond Hill Wine Tour',
   description: 'How to combine the M-119 Tunnel of Trees drive with a tasting stop at Pond Hill Farm, and how long the drive really takes.',
   alternates: { canonical: "https://chrisizworski.com/petoskey-wine/tunnel-of-trees-wine-tour/" },
 });
