@@ -1,5 +1,6 @@
 import { withSocialMetadata } from "@/lib/page-metadata";
 import CreatorAuthority from "@/components/CreatorAuthority";
+import PetoskeyDayLens from "@/components/PetoskeyDayLens";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
@@ -35,6 +36,7 @@ export default function Page() {
           <p>Use the <Link href="/charlevoix-area-wineries">Charlevoix wine guide</Link> if you are staying west or want a longer excursion. Start with the farthest stop that actually matters to you and let the route planner expose the return drive and posted hours.</p>
           <p><strong>What the tool knows:</strong> mapped locations, current trail-roster flags, sourced opening hours when available, and route estimates. <strong>What it cannot promise:</strong> same-day walk-in space, seasonal staffing, or that unposted hours mean a room is closed. Verify those directly.</p>
         </section>
+        <PetoskeyDayLens initialCluster="petoskey" />
         <VenueHours title="The 14 trail members and their hours" trailOnly />
         <p className="small">Hours checked {HOURS_VERIFIED}. Call ahead where a stop does not publish a weekly schedule.</p>
         <p><Link href="/">Back to the full map and planner</Link></p>

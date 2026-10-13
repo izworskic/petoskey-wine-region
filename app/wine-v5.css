@@ -27,3 +27,31 @@
 .wine-v5-disclosure{font-size:.78rem;line-height:1.5;margin:16px 0 0;color:#687067}
 .wine-v5 button:focus-visible,.wine-v5 select:focus-visible,.wine-v5 a:focus-visible{outline:3px solid #a87e54;outline-offset:3px}
 @media(max-width:760px){.wine-v5-controls,.wine-v5-verdict{grid-template-columns:1fr}.wine-v5-alternative{padding:18px 0 0;border-left:0;border-top:1px solid #d0d4ca}.wine-v5-verdict{gap:12px;padding:17px}.wine-v5{margin:18px 0 28px;padding:18px}}
+
+/* Petoskey practical day planner */
+.petoskey-day-lens{width:100%;max-width:100%;overflow:hidden}
+.petoskey-day-inputs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}
+.petoskey-day-inputs label{font:650 .82rem/1.4 system-ui,sans-serif;display:flex;flex-direction:column;gap:6px}
+.petoskey-day-inputs input,.petoskey-day-inputs select{background:#fff;color:#253528;border:1px solid #bebbb2;border-radius:8px;padding:9px;min-width:0;min-height:44px;font-size:.88rem}
+.petoskey-day-place{font-style:italic;color:#475b4a}
+.petoskey-day-result{background:#f4f3ed;border:1px solid #e5dfd3;border-radius:12px;padding:clamp(14px,2vw,23px)}
+.petoskey-day-status{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;padding:12px;border:1px solid #bdccb6;background:#f1f7ed;border-radius:8px}
+.petoskey-day-status[data-state="CALL_AHEAD"]{background:#fff5e5;border-color:#e4c392}
+.petoskey-day-status strong{color:#294531}
+.petoskey-day-status[data-state="CALL_AHEAD"] strong{color:#6c4b20}
+.petoskey-day-status span{font-size:.85rem}
+.petoskey-day-stops{list-style:none;margin:18px 0;padding:0;display:grid;gap:12px}
+.petoskey-day-stops li{border-bottom:1px solid #d6d3c8;padding:5px 4px 15px;display:grid;gap:5px}
+.petoskey-day-stops li strong{font-size:1.06rem}
+.petoskey-day-stops li span{font-size:.85rem;line-height:1.55}
+.petoskey-day-time{font-weight:750;color:#713c4c}
+.petoskey-day-hour-state{font-weight:700;color:#65543c}
+.petoskey-day-stops a{color:#693c4a;font-weight:700}
+.petoskey-day-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.petoskey-day-actions a{display:inline-block;background:#693c4a;color:white!important;text-decoration:none;padding:11px 16px;border-radius:8px;font-weight:750}
+.petoskey-day-actions span{font-size:.87rem}
+.petoskey-day-fine{font-size:.81rem;color:#646159;margin:16px 0 0}
+.petoskey-day-no-fit{border:1px solid #e4c392;background:#fff5e5;padding:17px;border-radius:10px}
+.petoskey-day-no-fit h3{margin:0 0 9px}
+@media(max-width:790px){.petoskey-day-inputs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.petoskey-day-inputs{grid-template-columns:1fr}.petoskey-day-actions a{width:100%;text-align:center}}

@@ -1,5 +1,6 @@
 import { withSocialMetadata } from "@/lib/page-metadata";
 import CreatorAuthority from "@/components/CreatorAuthority";
+import PetoskeyDayLens from "@/components/PetoskeyDayLens";
 import Link from "next/link";
 import VenueHours, { HOURS_VERIFIED } from "@/components/VenueHours";
 import PlannerMount from "@/components/PlannerMount";
@@ -23,6 +24,7 @@ export default function Page() {
         <p>Pond Hill Farm sits at the bottom of the drive, just up from Harbor Springs, and is the right tasting stop to pair with it: a working farm with a winery, a brewery, a cafe and enough going on that it absorbs an hour and a half without effort. Thorne Swift Nature Preserve is a few miles further north, a cedar boardwalk out to a dune beach, and a good leg stretch halfway.</p>
         <p>At the top, Legs Inn at Cross Village is a stone and driftwood roadhouse serving Polish food with a garden over the lake. It is seasonal, so check before you commit the whole afternoon to arriving there hungry.</p>
         <p>Crooked Vine in Alanson and Seasons of the North out on M-68 are the other two stops in this half of the region. They are east rather than north, toward the Inland Water Route, so they pair with the Oden fish hatchery and the Alanson swing bridge rather than with the Tunnel of Trees.</p>
+        <PetoskeyDayLens initialCluster="harbor-alanson" />
         <VenueHours title="Hours for the Harbor Springs and Alanson stops" areas={["harbor-alanson"]} />
         <p className="small">Hours checked {HOURS_VERIFIED}. Call ahead where a stop does not publish a weekly schedule.</p>
         <p><Link href="/">Back to the full map and planner</Link></p>
