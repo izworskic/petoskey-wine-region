@@ -47,7 +47,7 @@ const FAQ = [
 const canonicalProductUrl = "https://chrisizworski.com/petoskey-wine/";
 
 export const metadata = {
-  title: "Petoskey Wine Region Map and Wine Tour Planner",
+  title: "Petoskey Wineries & Wine Trail Map: Hours, Day Trips",
   description:
     "Plan a Petoskey wine day: pick the tasting rooms you want and get a routed loop that respects posted hours, the drive between stops and the stones.",
   alternates: { canonical: canonicalProductUrl },
@@ -82,6 +82,12 @@ export default function Home() {
 
       <article className="prose">
         <h1>Petoskey Wine Region map and wine tour planner</h1>
+        <section className="petoskey-search-answer" aria-label="Petoskey wine trail search answers">
+          <h2>Where should you go wine tasting near Petoskey?</h2>
+          <p>For a first visit, concentrate on the <Link href="/walloon-lake-wineries">Petoskey and Walloon Lake winery cluster</Link> rather than trying to cover the whole Tip of the Mitt. The <Link href="/petoskey-wine-region-trail">official trail roster</Link> has 14 wineries spread across several counties; each visit needs driving time, hours and a realistic meal break.</p>
+          <p>Want a day with scenery? Try <Link href="/tunnel-of-trees-wine-tour">Harbor Springs and the Tunnel of Trees</Link>. Heading west? Use the <Link href="/charlevoix-area-wineries">Charlevoix winery corridor</Link>. This wine country specializes in cold-hardy grapes; it is a different tasting experience from <a href="https://tcwine.chrisizworski.com/">Traverse City and Leelanau wine country</a>.</p>
+          <p><strong>Choose your date and first stop before committing.</strong> Some rooms do not publish dependable weekly hours. The planner identifies posted-hours conflicts and marks unconfirmed stops as call-ahead rather than presenting them as confirmed.</p>
+        </section>
         <p>
           The Petoskey Wine Region is the wine trail at the top of the mitt: {TRAIL.length} family
           wineries scattered between Walloon Lake, Petoskey, Alanson, Charlevoix and points south,

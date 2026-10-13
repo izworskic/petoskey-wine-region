@@ -55,3 +55,9 @@
 .petoskey-day-no-fit h3{margin:0 0 9px}
 @media(max-width:790px){.petoskey-day-inputs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.petoskey-day-inputs{grid-template-columns:1fr}.petoskey-day-actions a{width:100%;text-align:center}}
+
+/* Search-intent answers after regional H1, before secondary editorial sections. */
+.petoskey-search-answer{padding:18px clamp(15px,3vw,25px);margin:14px 0 23px;background:#faf8f2;border:1px solid #dfd8cb;border-left:4px solid #775160;border-radius:10px;color:#273b2e}
+.petoskey-search-answer h2{font-family:Georgia,serif;font-size:clamp(1.2rem,2.4vw,1.55rem);line-height:1.2;margin:0 0 10px}
+.petoskey-search-answer p{font-size:.94rem;max-width:82ch;line-height:1.63;margin:9px 0}
+.petoskey-search-answer a{font-weight:700;color:#703e50;text-decoration:underline;text-underline-offset:3px}

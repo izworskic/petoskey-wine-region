@@ -48,3 +48,13 @@ const landing=await read("app/page.js");
 assert.match(landing,/PetoskeyDayLens/);
 for(const page of ["app/petoskey-wine-region-trail/page.js","app/walloon-lake-wineries/page.js","app/tunnel-of-trees-wine-tour/page.js","app/charlevoix-area-wineries/page.js"])assert.match(await read(page),/PetoskeyDayLens/);
 console.log("Petoskey V5 trip feasibility, unknown-hours, cluster-boundary and page-coverage tests passed.");
+
+for(const [p,needle] of [
+  ["app/page.js", "Where should you go wine tasting near Petoskey?"],
+  ["app/petoskey-wine-region-trail/page.js","Can you visit all 14 Petoskey wine trail wineries in a day?"],
+  ["app/walloon-lake-wineries/page.js","Which wineries are near Walloon Lake?"],
+  ["app/tunnel-of-trees-wine-tour/page.js","Can you visit a winery on the Tunnel of Trees drive?"],
+  ["app/charlevoix-area-wineries/page.js","What wineries can you visit near Charlevoix?"]
+]){assert.match(await read(p),new RegExp(needle.replace(/[?]/g,"\\?")));assert.match(await read(p),/petoskey-search-answer/);}
+assert.match(await read("app/page.js"),/https:\/\/tcwine.chrisizworski.com\//);
+console.log("Petoskey answer-first query matching across five region entry points passed.");
