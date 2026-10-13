@@ -1,4 +1,7 @@
 import "./globals.css";
+import "./wine-v5.css";
+import "./wine-network-footer.css";
+import WineNetworkFooter from "@/components/WineNetworkFooter";
 
 export const metadata = {
   metadataBase: new URL("https://chrisizworski.com/petoskey-wine"),
@@ -17,7 +20,7 @@ export const viewport = { width: "device-width", initialScale: 1 };
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}<WineNetworkFooter /></body>
     </html>
   );
 }
