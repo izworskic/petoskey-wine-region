@@ -1,5 +1,5 @@
 
-/* Michigan wine V5 — shared decision lens, comfortable on a narrow phone */
+/* Michigan wine V5  -  shared decision lens, comfortable on a narrow phone */
 .wine-v5{--v5-ink:#253528;--v5-wine:#693c4a;--v5-line:#d9d4c9; margin:26px 0 38px; padding:clamp(18px,3vw,36px);background:#fbf9f4;color:var(--v5-ink);border:1px solid var(--v5-line);border-radius:18px;box-shadow:0 12px 38px rgba(35,36,31,.065);line-height:1.55}
 .wine-v5 h2,.wine-v5 h3,.wine-v5 h4{font-family:Georgia,serif;color:var(--v5-ink);letter-spacing:-.025em}
 .wine-v5 h2{font-size:clamp(1.45rem,2.7vw,2rem);line-height:1.16;margin:8px 0 10px}
