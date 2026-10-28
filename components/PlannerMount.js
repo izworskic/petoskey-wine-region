@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 
 const Planner = dynamic(() => import("@/components/Planner"), {
   ssr: false,
-  loading: () => <div style={{ minHeight: "100vh", padding: 28 }}>Loading the map.</div>,
+  loading: () => <div style={{ minHeight: "360px", padding: 28 }}>Loading the map.</div>,
 });
 
 export default function PlannerMount(props) {
